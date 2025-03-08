@@ -1,0 +1,628 @@
+Team,Player,Level,Pos,Yrs,Cost,Note,Options
+Bayou Shooters,Vladimir Guerrero Jr.,MLB,1B,1,80%,³,
+Bayou Shooters,Rafael Devers,MLB,3B,1,80%,³,
+Bayou Shooters,Alex Verdugo,MLB,OF,1,80%,³,
+Bayou Shooters,Jonathan India,MLB,2B,1,60%,²,
+Bayou Shooters,Gavin Lux,MLB,SS,1,60%,²,
+Bayou Shooters,Andres Gimenez,MLB,2B,2,$6.00,,
+Bayou Shooters,Brady Singer,MLB,SP,2,$3.00,,
+Bayou Shooters,Edwin Diaz,MLB,RP,2,$1.00,@,
+Bayou Shooters,Logan T. Allen,MLB,SP,2,$1.00,@,
+Bayou Shooters,Jackson Merrill,MLB,SS,2,$1.00,@,
+Bayou Shooters,Oneil Cruz,MLB,SS,2,$1.00,@,
+Bayou Shooters,MJ Melendez,MLB,OF,1,$1.00,@,
+Bayou Shooters,Chris Paddack,MLB,SP,1,$1.00,,
+Bayou Shooters,Mike Soroka,MLB,SP,1,$1.00,,
+Bayou Shooters,Ryne Nelson,MLB,SP,2,$1.00,@,
+Bayou Shooters,James Wood,AA,OF,8,$1.00,,
+Bayou Shooters,Dustin Harris,AA,1B,U,$-,,3
+Bayou Shooters,Brady House,AA,3B,U,$-,,3
+Bayou Shooters,Diego Cartaya,AA,C,U,$-,,3
+Bayou Shooters,Luis Campusano,AA,C,U,$-,,3
+Bayou Shooters,Josue De Paula,AA,OF,U,$-,,3
+Bayou Shooters,Miguel Bleis,AA,OF,U,$-,,3
+Bayou Shooters,Dax Fulton,AA,SP,U,$-,,3
+Bayou Shooters,Dylan Lesko,AA,SP,U,$-,,3
+Bayou Shooters,Edward Cabrera,AA,SP,U,$-,,3
+Bayou Shooters,Gavin Williams,AA,SP,U,$-,,3
+Bayou Shooters,Hurston Waldrep,AA,SP,U,$-,,3
+Bayou Shooters,River Ryan,AA,SP,U,$-,,3
+Bayou Shooters,Taj Bradley,AA,SP,U,$-,,3
+Bayou Shooters,Dustin May,AA,SP,U,$-,,2
+Bayou Shooters,Ronny Mauricio,AA,SS,U,$-,,3
+Bayou Shooters,Anthony Rizzo,AAA,1B,0,AAA opt,,
+Bayou Shooters,Tyler O'Neill,AAA,OF,0,AAA opt,,
+Bayou Shooters,Justin Lawrence,AAA,RP,0,AAA opt,,
+Bayou Shooters,Steven Matz,AAA,RP,0,AAA opt,,
+Bayou Shooters,Patrick Sandoval,AAA,SP,0,AAA opt,,
+Cheating Raiders,Corbin Burnes,MLB,SP,1,80%,³,
+Cheating Raiders,Mitch Keller,MLB,SP,1,80%,³,
+Cheating Raiders,Nico Hoerner,MLB,2B,1,60%,²,
+Cheating Raiders,Dylan Cease,MLB,SP,1,60%,²,
+Cheating Raiders,Logan Gilbert,MLB,SP,1,40%,¹,
+Cheating Raiders,Tarik Skubal,MLB,SP,1,40%,¹,
+Cheating Raiders,Manny Machado,MLB,3B,2,$7.00,,
+Cheating Raiders,Adolis Garcia,MLB,OF,1,$6.40,,
+Cheating Raiders,Walker Buehler,MLB,SP,2,$1.69,,
+Cheating Raiders,Cody Bellinger,MLB,OF,1,$1.50,,
+Cheating Raiders,Adley Rutschman,MLB,C,1,$1.00,@,
+Cheating Raiders,Bobby Witt Jr.,MLB,SS,1,$1.00,@,
+Cheating Raiders,Jarred Kelenic,AAA,OF,2,$1.00,@,
+Cheating Raiders,Tanner Bibee,MLB,SP,2,$1.00,@,
+Cheating Raiders,Austin Riley,MLB,3B,1,60%,²,
+Cheating Raiders,Nick Kurtz,AA,1B,11,$1.13,,
+Cheating Raiders,Clarke Schmidt,MLB,SP,1,$1.00,@,
+Cheating Raiders,Matt Shaw,AA,3B,U,$-,,3
+Cheating Raiders,Tommy White,AA,3B,U,$-,,3
+Cheating Raiders,Tyler Black,AA,3B,U,$-,,3
+Cheating Raiders,Justyn-Henry Malloy,AA,OF,U,$-,,3
+Cheating Raiders,Vance Honeycutt,AA,OF,U,$-,,3
+Cheating Raiders,Cade Horton,AA,SP,U,$-,,3
+Cheating Raiders,Chase Dollander,AA,SP,U,$-,,3
+Cheating Raiders,Drew Thorpe,AA,SP,U,$-,,3
+Cheating Raiders,Jordan Wicks,AA,SP,U,$-,,3
+Cheating Raiders,Ty Madden,AA,SP,U,$-,,3
+Cheating Raiders,Colson Montgomery,AA,SS,U,$-,,3
+Cheating Raiders,Shea Langeliers,AAA,C,0,AAA opt,,
+Cheating Raiders,Orlando Arcia,AAA,SS,0,AAA opt,,
+Cheating Raiders,Josh Bell,AAA,1B,0,AAA opt,,
+Cheating Raiders,Elias Diaz,AAA,C,0,AAA opt,,
+Cheating Raiders,Brent Rooker,AAA,OF,0,AAA opt,,
+Country Strong,Nathaniel Lowe,MLB,1B,1,60%,²,
+Country Strong,Brandon Lowe,MLB,2B,1,60%,²,
+Country Strong,Freddy Peralta,MLB,SP,1,60%,²,
+Country Strong,Corey Seager,MLB,SS,1,$7.50,,
+Country Strong,Carlos Rodon,MLB,SP,1,$5.50,,
+Country Strong,Shota Imanaga,MLB,SP,2,$2.35,,
+Country Strong,Cristopher Sanchez,MLB,SP,2,$1.50,,
+Country Strong,Jackson Chourio,MLB,OF,9,$1.10,,
+Country Strong,Gunnar Henderson,MLB,SS,2,$1.00,@,
+Country Strong,Yoshinobu Yamamoto,MLB,SP,4,$1.00,,
+Country Strong,Fernando Tatis Jr.,MLB,OF,3,$1.00,,
+Country Strong,CJ Abrams,MLB,SS,8,$1.00,,
+Country Strong,Nolan Jones,AAA,OF,2,$4.50,,
+Country Strong,Rowdy Tellez,AAA,1B,1,$2.00,,
+Country Strong,Christian Encarnacion-Strand,MLB,1B,2,$1.00,@,
+Country Strong,Nolan Gorman,AAA,2B,2,$1.00,@,
+Country Strong,Josh Jung,MLB,3B,1,$1.00,@,
+Country Strong,Roansy Contreras,AAA,SP,1,$1.00,,
+Country Strong,Jackson Holliday,MLB,2B,9,$1.15,,
+Country Strong,Sandy Alcantara,MLB,SP,3,$1.05,,
+Country Strong,Colt Emerson,AA,SS,11,$1.00,,
+Country Strong,Munetaka Murakami,AA,3B,6,$1.00,,
+Country Strong,Jack Leiter,AA,SP,6,$1.00,,
+Country Strong,Jacob deGrom,MLB,SP,2,$1.00,,
+Country Strong,Kyle Manzardo,AA,1B,U,$-,,3
+Country Strong,Xavier Isaac,AA,1B,U,$-,,3
+Country Strong,Sebastian Walcott,AA,3B,U,$-,,3
+Country Strong,Chase DeLauter,AA,OF,U,$-,,3
+Country Strong,Luis Matos,AA,OF,U,$-,,3
+Country Strong,Felix Bautista,MLB,RP,3,$1.00,@,3
+Country Strong,Luis Garcia,AAA,SP,3,$1.00,@,3
+Country Strong,Christian Scott,AA,SP,U,$-,,2
+Country Strong,Joendry Vargas,AA,SS,U,$-,,3
+Country Strong,James Paxton,AAA,SP,0,AAA opt,,
+Detroit Nittany Tide,Alex Bregman,MLB,3B,1,$6.50,,
+Detroit Nittany Tide,Zack Gelof,MLB,2B,2,$3.25,,
+Detroit Nittany Tide,Yainer Diaz,MLB,C,2,$2.00,,
+Detroit Nittany Tide,Daulton Varsho,MLB,OF,2,$2.00,,
+Detroit Nittany Tide,Tyler Mahle,MLB,SP,1,$1.85,,
+Detroit Nittany Tide,Spencer Torkelson,MLB,1B,7,$1.50,,
+Detroit Nittany Tide,Brendan Rodgers,MLB,2B,2,$1.00,@,
+Detroit Nittany Tide,Josh Lowe,MLB,OF,2,$1.00,@,
+Detroit Nittany Tide,Mickey Moniak,MLB,OF,2,$1.00,@,
+Detroit Nittany Tide,Ian Anderson,MLB,SP,1,60%,²,
+Detroit Nittany Tide,Chase Silseth,MLB,SP,2,$1.00,@,
+Detroit Nittany Tide,Paul Skenes,MLB,SP,2,$1.00,@,
+Detroit Nittany Tide,Hunter Greene,MLB,SP,1,$1.00,@,
+Detroit Nittany Tide,MacKenzie Gore,MLB,SP,1,$1.00,@,
+Detroit Nittany Tide,Nick Lodolo,MLB,SP,1,$1.00,@,
+Detroit Nittany Tide,Austin Martin,AAA,3B,2,$1.00,@,
+Detroit Nittany Tide,Travis Bazzana,AA,2B,U,$-,,3
+Detroit Nittany Tide,Addison Barger,AA,3B,U,$-,,3
+Detroit Nittany Tide,Cam Collier,AA,3B,U,$-,,3
+Detroit Nittany Tide,Yohandy Morales,AA,3B,U,$-,,3
+Detroit Nittany Tide,Cristhian Vaquero,AA,OF,U,$-,,3
+Detroit Nittany Tide,Enrique Bradfield Jr.,AA,OF,U,$-,,3
+Detroit Nittany Tide,Heston Kjerstad,AA,OF,U,$-,,3
+Detroit Nittany Tide,Jordyn Adams,AA,OF,U,$-,,3
+Detroit Nittany Tide,Kevin Alcantara,AA,OF,U,$-,,3
+Detroit Nittany Tide,Max Clark,AA,OF,U,$-,,3
+Detroit Nittany Tide,Travis Honeyman,AA,OF,U,$-,,3
+Detroit Nittany Tide,Walker Jenkins,AA,OF,U,$-,,3
+Detroit Nittany Tide,Brody Brecht,AA,SP,U,$-,,3
+Detroit Nittany Tide,Jackson Jobe,AA,SP,U,$-,,3
+Detroit Nittany Tide,Ty France,AAA,1B,0,AAA opt,,
+Detroit Nittany Tide,Tyler Stephenson,AAA,C,0,AAA opt,,
+Detroit Nittany Tide,James McArthur,AAA,RP,0,AAA opt,,
+Detroit Nittany Tide,Jameson Taillon,AAA,SP,0,AAA opt,,
+Detroit Nittany Tide,Colin Rea,AAA,RP,0,AAA opt,,
+Dip City Thunder,Julio Rodriguez,MLB,OF,1,40%,¹,
+Dip City Thunder,Jeremy Pena,MLB,SS,1,40%,¹,
+Dip City Thunder,Royce Lewis,MLB,3B,2,$1.00,@,
+Dip City Thunder,Mason Miller,MLB,RP,2,$1.00,,
+Dip City Thunder,Spencer Steer,MLB,1B,1,$1.00,@,
+Dip City Thunder,Hayden Wesneski ©,Cut,SP,1,$1.50,,
+Dip City Thunder,Alec Bohm,MLB,3B,1,60%,²,
+Dip City Thunder,Triston Casas,MLB,1B,2,$1.00,@,
+Dip City Thunder,Jarren Duran,MLB,OF,1,$1.00,@,
+Dip City Thunder,Louie Varland,MLB,SP,2,$1.00,,
+Dip City Thunder,Michael Busch,AA,1B,U,$-,,2
+Dip City Thunder,Bryan Ramos,AA,3B,U,$-,,3
+Dip City Thunder,Ethan Holliday,AA,3B,U,$-,,3
+Dip City Thunder,Emmanuel Rodriguez,AA,OF,U,$-,,3
+Dip City Thunder,Lazaro Montes,AA,OF,U,$-,,3
+Dip City Thunder,Yanquiel Fernandez,AA,OF,U,$-,,3
+Dip City Thunder,Parker Meadows,AA,OF,U,$-,,2
+Dip City Thunder,Esteury Ruiz,AA,OF,U,$-,,1
+Dip City Thunder,Hyun-Seok Jang,AA,SP,U,$-,,3
+Dip City Thunder,Tylor Megill,AA,SP,1,40%,¹,
+Dip City Thunder,Orelvis Martinez,AA,SS,U,$-,,3
+Dip City Thunder,Luis Severino,AAA,SP,0,AAA opt,,
+Dip City Thunder,Ezequiel Duran,AAA,3B,0,AAA opt,,
+Dip City Thunder,Ryan Jeffers,AAA,C,0,AAA opt,,
+Dip City Thunder,Miles Mikolas,AAA,SP,0,AAA opt,,
+Dip City Thunder,Brandon Drury,AAA,1B,0,AAA opt,,
+FA,Bryce Harper,MLB,1B,1,$1.00,,
+FA,Christian Walker,MLB,1B,1,$1.00,,
+FA,Connor Joe,MLB,1B,1,$1.00,,
+FA,Freddie Freeman,MLB,1B,1,$1.00,,
+FA,Josh Naylor,MLB,1B,1,$1.00,,
+FA,Matt Olson,MLB,1B,1,$1.00,,
+FA,Paul Goldschmidt,MLB,1B,1,$1.00,,
+FA,Ryan Noda,MLB,1B,1,$1.00,,
+FA,Yandy Diaz,MLB,1B,1,$1.00,,
+FA,Juan Yepez,MLB,1B,1,$1.00,,
+FA,Abraham Toro,MLB,2B,1,$1.00,,
+FA,Franklin Barreto ©,MLB,2B,1,$1.00,,
+FA,Jake Cronenworth,MLB,2B,1,$1.00,,
+FA,Joey Ortiz,MLB,2B,1,$1.00,,
+FA,Jorge Polanco,MLB,2B,1,$1.00,,
+FA,Jose Altuve,MLB,2B,1,$1.00,,
+FA,Ketel Marte,MLB,2B,1,$1.00,,
+FA,Luis Rengifo,MLB,2B,1,$1.00,,
+FA,Marcus Semien,MLB,2B,1,$1.00,,
+FA,Mookie Betts,MLB,2B,1,$1.00,,
+FA,Ramon Urias,MLB,2B,1,$1.00,,
+FA,Tommy Edman,MLB,2B,1,$1.00,,
+FA,Willi Castro,MLB,2B,1,$1.00,,
+FA,Xavier Edwards,MLB,2B,1,$1.00,,
+FA,Kahlil Watson,MLB,2B,1,$1.00,,
+FA,Gleyber Torres,MLB,2B,1,$1.00,,
+FA,Ozzie Albies,MLB,2B,1,$1.00,,
+FA,Adalberto Mondesi,MLB,3B,1,$1.00,,
+FA,Anthony Rendon,MLB,3B,1,$1.00,,
+FA,Isaac Paredes,MLB,3B,1,$1.00,,
+FA,Jeimer Candelario,MLB,3B,1,$1.00,,
+FA,Jake Burger,MLB,3B,1,$1.00,,
+FA,Jose Ramirez,MLB,3B,1,$1.00,,
+FA,Mark Vientos,MLB,3B,1,$1.00,,
+FA,Max Muncy,MLB,3B,1,$1.00,,
+FA,Tyler Freeman,MLB,3B,1,$1.00,,
+FA,Yoan Moncada,MLB,3B,1,$1.00,,
+FA,Ben Rice,MLB,C,1,$1.00,,
+FA,Cal Raleigh,MLB,C,1,$1.00,,
+FA,Connor Wong,MLB,C,1,$1.00,,
+FA,Jonah Heim,MLB,C,1,$1.00,,
+FA,J.T. Realmuto,MLB,C,1,$1.00,,
+FA,Mitch Garver,MLB,C,1,$1.00,,
+FA,Patrick Bailey,MLB,C,1,$1.00,,
+FA,Salvador Perez,MLB,C,1,$1.00,,
+FA,Will Smith,MLB,C,1,$1.00,,
+FA,William Contreras,MLB,C,1,$1.00,,
+FA,Willson Contreras,MLB,C,1,$1.00,,
+FA,Kevin Parada,MLB,C,1,$1.00,,
+FA,Joey Meneses,MLB,DH,1,$1.00,,
+FA,Marcell Ozuna,MLB,DH,1,$1.00,,
+FA,Shohei Ohtani,MLB,DH,1,$1.00,,
+FA,Aaron Judge,MLB,OF,1,$1.00,,
+FA,Anthony Santander,MLB,OF,1,$1.00,,
+FA,Austin Meadows,MLB,OF,1,$1.00,,
+FA,Brandon Nimmo,MLB,OF,1,$1.00,,
+FA,Brendan Donovan,MLB,OF,1,$1.00,,
+FA,Brenton Doyle,MLB,OF,1,$1.00,,
+FA,Bryan Reynolds,MLB,OF,1,$1.00,,
+FA,Chas McCormick,MLB,OF,1,$1.00,,
+FA,Christian Yelich,MLB,OF,1,$1.00,,
+FA,Christopher Morel,MLB,OF,1,$1.00,,
+FA,David Fry,MLB,OF,1,$1.00,,
+FA,George Springer,MLB,OF,1,$1.00,,
+FA,Jesus Sanchez,MLB,OF,1,$1.00,,
+FA,Jorge Soler,MLB,OF,1,$1.00,,
+FA,Jurickson Profar,MLB,OF,1,$1.00,,
+FA,Kyle Schwarber,MLB,OF,1,$1.00,,
+FA,Lane Thomas,MLB,OF,1,$1.00,,
+FA,Lourdes Gurriel Jr.,MLB,OF,1,$1.00,,
+FA,Mark Canha,MLB,OF,1,$1.00,,
+FA,Masataka Yoshida,MLB,OF,1,$1.00,,
+FA,Max Kepler,MLB,OF,1,$1.00,,
+FA,Michael Conforto,MLB,OF,1,$1.00,,
+FA,Giancarlo Stanton,MLB,OF,1,$1.00,,
+FA,Mike Trout,MLB,OF,1,$1.00,,
+FA,Nelson Velazquez,MLB,OF,1,$1.00,,
+FA,Otto Lopez,MLB,OF,1,$1.00,,
+FA,Randy Arozarena,MLB,OF,1,$1.00,,
+FA,Ronald Acuna,MLB,OF,1,$1.00,,
+FA,Steven Kwan,MLB,OF,1,$1.00,,
+FA,Taylor Ward,MLB,OF,1,$1.00,,
+FA,Teoscar Hernandez,MLB,OF,1,$1.00,,
+FA,TJ Friedl,MLB,OF,1,$1.00,,
+FA,Victor Robles,MLB,OF,1,$1.00,,
+FA,George Valera,MLB,OF,1,$1.00,,
+FA,Kristian Robinson,MLB,OF,1,$1.00,,
+FA,Juan Soto,MLB,OF,1,$1.00,,
+FA,Garrett Mitchell,MLB,OF,1,$1.00,,
+FA,A.J. Puk,MLB,RP,1,$1.00,,
+FA,Abner Uribe,MLB,RP,1,$1.00,,
+FA,Adbert Alzolay,MLB,RP,1,$1.00,,
+FA,Alex Lange,MLB,RP,1,$1.00,,
+FA,Alexis Diaz,MLB,RP,1,$1.00,,
+FA,Bowden Francis,MLB,RP,1,$1.00,,
+FA,Calvin Faucher,MLB,RP,1,$1.00,,
+FA,Camilo Doval,MLB,RP,1,$1.00,,
+FA,Carlos Estevez,MLB,RP,1,$1.00,,
+FA,Chad Green,MLB,RP,1,$1.00,,
+FA,Chris Devenski,MLB,RP,1,$1.00,,
+FA,Clay Holmes,MLB,RP,1,$1.00,,
+FA,Craig Kimbrel,MLB,RP,1,$1.00,,
+FA,David Bednar,MLB,RP,1,$1.00,,
+FA,David Robertson,MLB,RP,1,$1.00,,
+FA,Emmanuel Clase,MLB,RP,1,$1.00,,
+FA,Evan Phillips,MLB,RP,1,$1.00,,
+FA,Griffin Jax,MLB,RP,1,$1.00,,
+FA,Hector Neris,MLB,RP,1,$1.00,,
+FA,Hunter Harvey,MLB,RP,1,$1.00,,
+FA,Jason Foley,MLB,RP,1,$1.00,,
+FA,Jeff Hoffman,MLB,RP,1,$1.00,,
+FA,Jhoan Duran,MLB,RP,1,$1.00,,
+FA,Joel Payamps,MLB,RP,1,$1.00,,
+FA,Jonathan Loaisiga,MLB,RP,1,$1.00,,
+FA,Jordan Romano,MLB,RP,1,$1.00,,
+FA,Jose Alvarado,MLB,RP,1,$1.00,,
+FA,Jose Leclerc,MLB,RP,1,$1.00,,
+FA,Josh Hader,MLB,RP,1,$1.00,,
+FA,Kenley Jansen,MLB,RP,1,$1.00,,
+FA,Kevin Ginkel,MLB,RP,1,$1.00,,
+FA,Kirby Yates,MLB,RP,1,$1.00,,
+FA,Kyle Finnegan,MLB,RP,1,$1.00,,
+FA,Paul Sewald,MLB,RP,1,$1.00,,
+FA,Pete Fairbanks,MLB,RP,1,$1.00,,
+FA,Raisel Iglesias,MLB,RP,1,$1.00,,
+FA,Reed Garrett,MLB,RP,1,$1.00,,
+FA,Robert Stephenson,MLB,RP,1,$1.00,,
+FA,Robert Suarez,MLB,RP,1,$1.00,,
+FA,Ryan Helsley,MLB,RP,1,$1.00,,
+FA,Ryan Walker,MLB,RP,1,$1.00,,
+FA,Seranthony Dominguez,MLB,RP,1,$1.00,,
+FA,Tanner Scott,MLB,RP,1,$1.00,,
+FA,Trevor Megill,MLB,RP,1,$1.00,,
+FA,Will Smith (RP),MLB,RP,1,$1.00,,
+FA,Yimi Garcia,MLB,RP,1,$1.00,,
+FA,Aaron Civale,MLB,SP,1,$1.00,,
+FA,Aaron Nola,MLB,SP,1,$1.00,,
+FA,Adrian Houser,MLB,SP,1,$1.00,,
+FA,Alek Manoah,MLB,SP,1,$1.00,,
+FA,Andrew Abbott,MLB,SP,1,$1.00,,
+FA,Andrew Heaney,MLB,SP,1,$1.00,,
+FA,Bailey Ober,MLB,SP,1,$1.00,,
+FA,Blake Snell,MLB,SP,1,$1.00,,
+FA,Bryan Woo,MLB,SP,1,$1.00,,
+FA,Bryce Elder,MLB,SP,1,$1.00,,
+FA,Cal Quantrill,MLB,SP,1,$1.00,,
+FA,Charlie Morton,MLB,SP,1,$1.00,,
+FA,Chris Bassitt,MLB,SP,1,$1.00,,
+FA,Chris Sale,MLB,SP,1,$1.00,,
+FA,Clayton Kershaw,MLB,SP,1,$1.00,,
+FA,Cristian Javier,MLB,SP,1,$1.00,,
+FA,Dakota Hudson,MLB,SP,1,$1.00,,
+FA,Dane Dunning,MLB,SP,1,$1.00,,
+FA,Dean Kremer,MLB,SP,1,$1.00,,
+FA,Drew Rasmussen,MLB,SP,1,$1.00,,
+FA,Eduardo Rodriguez,MLB,SP,1,$1.00,,
+FA,Erick Fedde,MLB,SP,1,$1.00,,
+FA,Framber Valdez,MLB,SP,1,$1.00,,
+FA,Huascar Ynoa ©,MLB,SP,1,$1.00,,
+FA,Javier Assad,MLB,SP,1,$1.00,,
+FA,Jeffrey Springs,MLB,SP,1,$1.00,,
+FA,Jeffrey Springs2,MLB,SP,1,$1.00,,
+FA,Joe Ryan,MLB,SP,1,$1.00,,
+FA,John Means,MLB,SP,1,$1.00,,
+FA,Jon Gray,MLB,SP,1,$1.00,,
+FA,Jose Berrios,MLB,SP,1,$1.00,,
+FA,Jose Urquidy,MLB,SP,1,$1.00,,
+FA,JP Sears,MLB,SP,1,$1.00,,
+FA,Julio Urias,MLB,SP,1,$1.00,,
+FA,Justin Steele,MLB,SP,1,$1.00,,
+FA,Justin Verlander,MLB,SP,1,$1.00,,
+FA,Keaton Winn,MLB,SP,1,$1.00,,
+FA,Kenta Maeda,MLB,SP,1,$1.00,,
+FA,Kevin Gausman,MLB,SP,1,$1.00,,
+FA,Kodai Senga,MLB,SP,1,$1.00,,
+FA,Kutter Crawford,MLB,SP,1,$1.00,,
+FA,Kyle Bradish,MLB,SP,1,$1.00,,
+FA,Kyle Gibson,MLB,SP,1,$1.00,,
+FA,Kyle Hendricks,MLB,SP,1,$1.00,,
+FA,Kyle Wright,MLB,SP,1,$1.00,,
+FA,Lance Lynn,MLB,SP,1,$1.00,,
+FA,Logan Webb,MLB,SP,1,$1.00,,
+FA,Luis Castillo,MLB,SP,1,$1.00,,
+FA,Luis Gil,MLB,SP,1,$1.00,,
+FA,Marcus Stroman,MLB,SP,1,$1.00,,
+FA,Martin Perez,MLB,SP,1,$1.00,,
+FA,Matt Waldron,MLB,SP,1,$1.00,,
+FA,Matthew Boyd,MLB,SP,1,$1.00,,
+FA,Merrill Kelly,MLB,SP,1,$1.00,,
+FA,Michael Wacha,MLB,SP,1,$1.00,,
+FA,Mitchell Parker,MLB,SP,1,$1.00,,
+FA,Nathan Eovaldi,MLB,SP,1,$1.00,,
+FA,Nick Pivetta,MLB,SP,1,$1.00,,
+FA,Noah Syndergaard,MLB,SP,1,$1.00,,
+FA,Pablo Lopez,MLB,SP,1,$1.00,,
+FA,Patrick Corbin,MLB,SP,1,$1.00,,
+FA,Ranger Suarez,MLB,SP,1,$1.00,,
+FA,Reynaldo Lopez,MLB,SP,1,$1.00,,
+FA,Robbie Ray,MLB,SP,1,$1.00,,
+FA,Ronel Blanco,MLB,SP,1,$1.00,,
+FA,Sean Manaea,MLB,SP,1,$1.00,,
+FA,Seth Lugo,MLB,SP,1,$1.00,,
+FA,Shane Bieber,MLB,SP,1,$1.00,,
+FA,Sonny Gray,MLB,SP,1,$1.00,,
+FA,Spencer Arrighetti,MLB,SP,1,$1.00,,
+FA,Spencer Strider,MLB,SP,1,$1.00,,
+FA,Tyler Glasnow,MLB,SP,1,$1.00,,
+FA,Tyler Wells,MLB,SP,1,$1.00,,
+FA,Yu Darvish,MLB,SP,1,$1.00,,
+FA,Zac Gallen,MLB,SP,1,$1.00,,
+FA,Zach Eflin,MLB,SP,1,$1.00,,
+FA,Zack Littell,MLB,SP,1,$1.00,,
+FA,Zack Wheeler,MLB,SP,1,$1.00,,
+FA,Brent Honeywell,MLB,SP,1,$1.00,,
+FA,Drey Jameson,MLB,SP,1,$1.00,,
+FA,Emmet Sheehan,MLB,SP,1,$1.00,,
+,,,,,,,
+FA,Kumar Rocker,MLB,SP,1,$1.00,,
+FA,Kyle Hurt,MLB,SP,1,$1.00,,
+FA,Luis Patiño,MLB,SP,1,$1.00,,
+FA,Quinn Priester,MLB,SP,1,$1.00,,
+FA,Sixto Sanchez,MLB,SP,1,$1.00,,
+FA,Wilmer Flores,MLB,SP,1,$1.00,,
+FA,Max Fried,MLB,SP,1,$1.00,,
+FA,Yusei Kikuchi,MLB,SP,1,$1.00,,
+FA,Amed Rosario,MLB,SS,1,$1.00,,
+FA,Brice Turang,MLB,SS,1,$1.00,,
+FA,Carlos Correa,MLB,SS,1,$1.00,,
+FA,Dansby Swanson,MLB,SS,1,$1.00,,
+FA,Francisco Lindor,MLB,SS,1,$1.00,,
+FA,Ha-Seong Kim,MLB,SS,1,$1.00,,
+FA,J.P. Crawford,MLB,SS,1,$1.00,,
+FA,Javier Baez,MLB,SS,1,$1.00,,
+FA,Jose Caballero,MLB,SS,1,$1.00,,
+FA,Josh Smith,MLB,SS,1,$1.00,,
+FA,Nick Gonzales,MLB,SS,1,$1.00,,
+FA,Thairo Estrada,MLB,SS,1,$1.00,,
+FA,Trea Turner,MLB,SS,1,$1.00,,
+FA,Trevor Story,MLB,SS,1,$1.00,,
+FA,Willy Adames,MLB,SS,1,$1.00,,
+FA,Xander Bogaerts,MLB,SS,1,$1.00,,
+FA,Dylan Moore,MLB,SS/OF/3B/2B,1,$1.00,,
+Midtown Jaguars,Ryan McMahon,MLB,3B,1,80%,³,
+Midtown Jaguars,Kyle Tucker,MLB,OF,1,60%,²,
+Midtown Jaguars,Bo Bichette,MLB,SS,1,60%,²,
+Midtown Jaguars,Joe Musgrove,MLB,SP,1,$9.70,,
+Midtown Jaguars,Nolan Arenado,MLB,3B,1,$3.55,,
+Midtown Jaguars,Jordan Montgomery,MLB,SP,1,$3.00,,
+Midtown Jaguars,Braxton Garrett,MLB,SP,1,$2.05,,
+Midtown Jaguars,Luis Robert Jr.,MLB,OF,2,$1.00,,
+Midtown Jaguars,Jazz Chisholm Jr.,MLB,2B,1,40%,¹,
+Midtown Jaguars,Keibert Ruiz,MLB,C,1,40%,¹,
+Midtown Jaguars,Seiya Suzuki,MLB,OF,1,40%,¹,
+Midtown Jaguars,Vinnie Pasquantino,MLB,1B,1,$1.00,@,
+Midtown Jaguars,Hunter Brown,MLB,SP,1,$1.00,@,
+Midtown Jaguars,Noah Schultz,AA,1B,U,$-,,3
+Midtown Jaguars,Ryan Clifford,AA,1B,U,$-,,3
+Midtown Jaguars,Tyler Soderstrom,AA,C,U,$-,,3
+Midtown Jaguars,Bo Naylor,AA,C,U,$-,,2
+Midtown Jaguars,Justin Crawford,AA,OF,U,$-,,3
+Midtown Jaguars,Owen Caissie,AA,OF,U,$-,,3
+Midtown Jaguars,Spencer Jones,AA,OF,U,$-,,3
+Midtown Jaguars,Carson Whisenhunt,AA,SP,U,$-,,3
+Midtown Jaguars,Daniel Espino,AA,SP,U,$-,,3
+Midtown Jaguars,Forrest Whitley,AA,SP,U,$-,,3
+Midtown Jaguars,Bryce Miller,AA,SP,U,$-,,1
+Midtown Jaguars,Grayson Rodriguez,AA,SP,U,$-,,1
+Midtown Jaguars,Carson Williams,AA,SS,U,$-,,3
+Midtown Jaguars,Oswald Peraza,AA,SS,U,$-,,3
+Midtown Jaguars,Maikel Garcia,AAA,3B,0,AAA opt,,
+Midtown Jaguars,Scott Barlow,AAA,RP,0,AAA opt,,
+Midtown Jaguars,Tyler Anderson,AAA,SP,0,AAA opt,,
+Orlando Renegades,Yordan Alvarez,MLB,OF,1,80%,³,
+Orlando Renegades,Gerrit Cole,MLB,SP,2,$2.20,,
+Orlando Renegades,Ezequiel Tovar,MLB,SS,4,$1.05,,
+Orlando Renegades,Cedric Mullins,MLB,OF,1,$1.05,,
+Orlando Renegades,Jordan Westburg,MLB,2B,1,$1.00,,
+Orlando Renegades,Nomar Mazara ©,Cut,OF,1,$2.00,,
+Orlando Renegades,Bobby Miller,AAA,SP,2,$1.00,@,
+Orlando Renegades,Ryan Pepiot,AAA,SP,2,$1.00,@,
+Orlando Renegades,Andrew Vaughn,AAA,1B,1,$-,@,
+Orlando Renegades,Sean Murphy,MLB,C,1,80%,³,
+Orlando Renegades,Trevor Bauer,AA,SP,2,$3.31,,
+Orlando Renegades,Brayden Taylor,AA,3B,U,$-,,3
+Orlando Renegades,Dylan Crews,MLB,OF,3,$1.00,@,3
+Orlando Renegades,Jace LaViolette,AA,OF,U,$-,,3
+Orlando Renegades,Wyatt Langford,AA,OF,U,$-,@,3
+Orlando Renegades,Andy Pages,AA,OF,U,$-,,2
+Orlando Renegades,Bubba Chandler,AA,SP,U,$-,,3
+Orlando Renegades,Robert Gasser,AA,SP,U,$-,,2
+Orlando Renegades,Jac Caglianone,AA,SP/1B,U,$-,,3
+Orlando Renegades,Junior Caminero,AA,3B,U,$-,@,3
+Orlando Renegades,Yoeilin Cespedes,AA,SS,U,$-,,3
+Orlando Renegades,Jack Suwinski,AAA,OF,0,AAA opt,,
+Orlando Renegades,Ryan Pressly,AAA,RP,0,AAA opt,,
+Orlando Renegades,Paul Blackburn,AAA,SP,0,AAA opt,,
+Ryno World,Triston McKenzie,MLB,SP,1,$2.90,,
+Ryno World,Rhys Hoskins,MLB,1B,1,$2.69,,
+Ryno World,Jack Flaherty,MLB,SP,1,$2.05,,
+Ryno World,Casey Mize,MLB,SP,4,$1.00,,
+Ryno World,Jose Miranda,MLB,3B,1,$1.00,@,
+Ryno World,Michael Harris II,MLB,OF,1,$1.00,@,
+Ryno World,George Kirby,MLB,SP,1,$1.00,@,
+Ryno World,Michael Kopech,MLB,RP,1,$1.00,@,
+Ryno World,Max Scherzer,MLB,SP,1,$1.00,,
+Ryno World,Vaughn Grissom,MLB,2B,1,$2.10,,
+Ryno World,Druw Jones,AA,OF,9,$1.00,,
+Ryno World,Zac Veen,AA,OF,8,$1.00,,
+Ryno World,Joey Bart,MLB,C,2,$1.00,,
+Ryno World,Jace Jung,AA,2B,U,$-,,3
+Ryno World,Ethan Salas,AA,C,U,$-,,3
+Ryno World,Henry Davis,AA,C,U,$-,,2
+Ryno World,Oscar Colas,AA,OF,U,$-,,2
+Ryno World,Ben Joyce,AA,RP,U,$-,,3
+Ryno World,Chase Burns,AA,SP,U,$-,,3
+Ryno World,Hagen Smith,AA,SP,U,$-,,3
+Ryno World,Noble Meyer,AA,SP,U,$-,,3
+Ryno World,Sam Bachman,AA,SP,U,$-,,3
+Ryno World,Jacob Gonzalez,AA,SS,U,$-,,3
+Ryno World,Jose Abreu,AAA,1B,0,AAA opt,,
+Ryno World,Matt Chapman,AAA,3B,0,AAA opt,,
+Ryno World,Gary Sanchez,AAA,C,0,AAA opt,,
+Ryno World,Kris Bryant,AAA,OF,0,AAA opt,,
+Ryno World,Whit Merrifield,AAA,OF,0,AAA opt,,
+Ryno World,Aroldis Chapman,AAA,RP,0,AAA opt,,
+Ryno World,Joe Ross,AAA,SP,0,AAA opt,,
+Ryno World,Jake Irvin,AAA,SP,0,AAA opt,,
+Springfield Zephyrs,Nestor Cortes,MLB,SP,1,$1.50,,
+Springfield Zephyrs,Logan O'Hoppe,MLB,C,2,$1.00,@,
+Springfield Zephyrs,Reese Olson,MLB,SP,2,$1.00,,
+Springfield Zephyrs,Bryson Stott,MLB,2B,1,$1.00,@,
+Springfield Zephyrs,Brendan McKay ©,Cut,SP,2,$1.00,,
+Springfield Zephyrs,Ken Waldichuk ©,Cut,SP,1,$1.00,,
+Springfield Zephyrs,Edouard Julien,AAA,2B,2,$1.00,@,
+Springfield Zephyrs,Austin Wells,AAA,C,2,$1.00,@,
+Springfield Zephyrs,Zach Neto,AAA,SS,2,$1.00,@,
+Springfield Zephyrs,Gabriel Moreno,AA,C,1,$1.00,@,
+Springfield Zephyrs,Matt Manning,AA,SP,1,$1.00,@,
+Springfield Zephyrs,Samuel Basallo,AA,1B,U,$-,,3
+Springfield Zephyrs,Matt Mervis,AA,1B,U,$-,,2
+Springfield Zephyrs,Connor Norby,AA,2B,U,$-,,3
+Springfield Zephyrs,Luisangel Acuna,AA,2B,U,$-,,3
+Springfield Zephyrs,Miguel Vargas,AA,2B,U,$-,,3
+Springfield Zephyrs,Colt Keith,AA,3B,U,$-,,3
+Springfield Zephyrs,Curtis Mead,AA,3B,U,$-,,3
+Springfield Zephyrs,Kazumo Okamoto,AA,3B,U,$-,,3
+Springfield Zephyrs,Harry Ford,AA,C,U,$-,,3
+Springfield Zephyrs,Kyle Teel,AA,C,U,$-,,3
+Springfield Zephyrs,Ceddanne Rafaela,AA,OF,U,$-,,3
+Springfield Zephyrs,Drew Gilbert,AA,OF,U,$-,,3
+Springfield Zephyrs,Gabriel Gonzalez,AA,OF,U,$-,,3
+Springfield Zephyrs,Pete Crow-Armstrong,AA,OF,U,$-,,3
+Springfield Zephyrs,Jordan Walker,AA,OF,U,$-,,2
+Springfield Zephyrs,AJ Smith-Shawver,AA,SP,U,$-,,3
+Springfield Zephyrs,Brock Porter,AA,SP,U,$-,,3
+Springfield Zephyrs,Lucas Giolito,AA,SP,U,$-,,3
+Springfield Zephyrs,Rhett Lowder,AA,SP,U,$-,,3
+Springfield Zephyrs,Robby Snelling,AA,SP,U,$-,,3
+Springfield Zephyrs,Tink Hence,AA,SP,U,$-,,3
+Springfield Zephyrs,Trevor Rogers,AA,SP,U,$-,,3
+Springfield Zephyrs,Cole Young,AA,SS,U,$-,,3
+Springfield Zephyrs,Jett Williams,AA,SS,U,$-,,3
+Springfield Zephyrs,Masyn Winn,AA,SS,U,$-,,3
+Springfield Zephyrs,Noelvi Marte,AA,SS,U,$-,,3
+Springfield Zephyrs,Tommy Troy,AA,SS,U,$-,,3
+Cheating Raiders,Kerry Carpenter,AAA,OF,1,$3.00,,
+Structure Fire,Tanner Houck,MLB,SP,1,40%,¹,
+Structure Fire,Pete Alonso,MLB,1B,1,$11.00,,
+Structure Fire,Ian Happ,MLB,OF,1,$4.05,,
+Structure Fire,James Outman,MLB,OF,2,$2.70,,
+Structure Fire,Nick Castellanos,MLB,OF,1,$2.60,,
+Structure Fire,Anthony Volpe,MLB,SS,7,$2.50,,
+Structure Fire,Jesus Luzardo,MLB,SP,3,$2.00,,
+Structure Fire,Andres Munoz,MLB,RP,1,$1.15,,
+Structure Fire,Elly De La Cruz,MLB,3B,2,$1.00,@,
+Structure Fire,Francisco Alvarez,MLB,C,2,$1.00,@,
+Structure Fire,Luis Arraez,MLB,2B,1,$1.00,,
+Structure Fire,Riley Greene,MLB,OF,1,$1.00,@,
+Structure Fire,Lars Nootbaar,MLB,OF,1,$1.00,,
+Structure Fire,Jordan Hicks,MLB,SP,1,$1.00,,
+Structure Fire,Spencer Howard ©,Cut,SP,2,$1.95,,
+Structure Fire,Asa Lacy ©,Cut,SP,5,$1.21,,
+Structure Fire,Evan White ©,Cut,1B,3,$1.00,,
+Structure Fire,Garrett Whitlock,MLB,SP,1,40%,¹,
+Structure Fire,Josiah Gray,MLB,SP,1,40%,¹,
+Structure Fire,Shane McClanahan,MLB,SP,1,40%,¹,
+Structure Fire,Dylan Carlson,AAA,OF,4,$2.15,,
+Structure Fire,Alex Kirilloff,AAA,1B,3,$1.00,,
+Structure Fire,Jo Adell,AAA,OF,2,$1.00,@,
+Structure Fire,DL Hall,AAA,SP,2,$1.00,@,
+Structure Fire,JJ Wetherholt,AA,2B,9,$1.00,,
+Structure Fire,Marcelo Mayer,AA,SS,8,$1.00,,
+Structure Fire,Charlie Condon,AA,1B,U,$-,,3
+Structure Fire,Aidan Miller,AA,3B,U,$-,,3
+Structure Fire,Brett Baty,AA,3B,U,$-,,3
+Structure Fire,Marco Luciano,AA,3B,U,$-,,3
+Structure Fire,Colton Cowser,AA,OF,U,$-,,3
+Structure Fire,Konnor Griffin,AA,OF,U,$-,,3
+Structure Fire,Robert Hassell III,AA,OF,U,$-,,3
+Structure Fire,Connor Phillips,AA,SP,U,$-,,3
+Structure Fire,Edwin Arroyo,AA,SS,U,$-,,3
+Structure Fire,Jordan Lawlar,AA,SS,U,$-,,3
+West Coast Spartans,Matt McLain,MLB,2B,1,$6.10,,
+West Coast Spartans,Devin Williams,MLB,RP,2,$2.30,,
+West Coast Spartans,Aaron Ashby,MLB,SP,4,$1.25,,
+West Coast Spartans,Eloy Jimenez,MLB,OF,2,$1.00,,
+West Coast Spartans,Jung Hoo Lee,MLB,OF,2,$1.00,,
+West Coast Spartans,Corbin Carroll,MLB,OF,1,$1.00,@,
+West Coast Spartans,Griffin Canning,MLB,SP,1,$1.00,@,
+West Coast Spartans,Reid Detmers,MLB,SP,1,40%,¹,
+West Coast Spartans,Evan Carter,MLB,OF,2,$1.00,@,
+West Coast Spartans,Sal Frelick,MLB,OF,2,$1.00,@,
+West Coast Spartans,Max Meyer,AA,SP,4,$1.70,,
+West Coast Spartans,Andrew Painter,AA,SP,11,$1.05,,
+West Coast Spartans,Termarr Johnson,AA,2B,U,$-,,3
+West Coast Spartans,Brock Wilken,AA,3B,U,$-,,3
+West Coast Spartans,Coby Mayo,AA,3B,U,$-,,3
+West Coast Spartans,Victor Scott II,AA,OF,U,$-,,3
+West Coast Spartans,Bryce Eldridge,AA,OF,U,$-,,3
+West Coast Spartans,Elijah Green,AA,OF,U,$-,,3
+West Coast Spartans,Roman Anthony,AA,OF,U,$-,,3
+West Coast Spartans,Chase Hampton,AA,SP,U,$-,,3
+West Coast Spartans,Gavin Stone,AA,SP,U,$-,,3
+West Coast Spartans,Jacob Misiorowski,AA,SP,U,$-,,3
+West Coast Spartans,Jarlin Susana,AA,SP,U,$-,,3
+West Coast Spartans,Jeter Martinez,AA,SP,U,$-,,3
+West Coast Spartans,Mick Abel,AA,SP,U,$-,,3
+West Coast Spartans,Ricky Tiedemann,AA,SP,U,$-,,3
+West Coast Spartans,Adael Amador,AA,SS,U,$-,,3
+West Coast Spartans,Brooks Lee,AA,SS,U,$-,,3
+West Coast Spartans,Leodalis De Vries,AA,SS,U,$-,,3
+West Coast Spartans,Roderick Arias,AA,SS,U,$-,,3
+West Coast Spartans,Justin Turner,AAA,1B,0,AAA opt,,
+West Coast Spartans,Eugenio Suarez,AAA,3B,0,AAA opt,,
+West Coast Spartans,Yennier Cano,AAA,RP,0,AAA opt,,
+West Coast Spartans,Graham Ashcraft,AAA,SP,0,AAA opt,,
+Young Bucks,Cole Ragans,MLB,SP,2,$5.45,,
+Young Bucks,Michael King,MLB,SP,1,$4.15,,
+Young Bucks,Jasson Dominguez,MLB,OF,9,$2.00,,
+Young Bucks,Ke'Bryan Hayes,MLB,3B,2,$1.50,²,
+Young Bucks,Frankie Montas,MLB,SP,2,$1.00,@,
+Young Bucks,Brandon Pfaadt,MLB,SP,1,$1.00,@,
+Young Bucks,Brayan Bello,MLB,SP,1,$1.00,@,
+Young Bucks,Wander Franco ©,Cut,SS,7,$2.55,,
+Young Bucks,Miguel Andujar ©,Cut,OF,2,$1.00,,
+Young Bucks,Kyle Harrison,AAA,SP,2,$1.00,@,
+Young Bucks,A.J. Minter,AA,RP,U,$-,,2
+Young Bucks,Cade Cavalli,AA,SP,U,$-,,3
+Young Bucks,Luis Morales,AA,SP,U,$-,,3
+Young Bucks,Roki Sasaki,AA,SP,U,$-,,3
+Young Bucks,Shunpeita Yamashita,AA,SP,U,$-,,3
+Young Bucks,Will Warren,AA,SP,U,$-,,3
+Young Bucks,Eury Perez,AA,SP,U,$-,,2
+Young Bucks,Garrett Crochet,AA,SP,U,$-,,2
+Young Bucks,Jared Jones,AA,SP,U,$-,,2
+Young Bucks,Matthew Liberatore,AA,SP,U,$-,,2
+Young Bucks,Shane Baz,AA,SP,U,$-,,2
+Young Bucks,Trevor Williams,AAA,SP,0,AAA opt,,
+Young Bucks,DJ LeMahieu,AAA,1B,0,AAA opt,,
+Young Bucks,Jeff McNeil,AAA,2B,0,AAA opt,,
+Young Bucks,Alejandro Kirk,AAA,C,0,AAA opt,,
+Young Bucks,Taijuan Walker,AAA,SP,0,AAA opt,,
+Young Bucks,Jose Quintana,AAA,SP,0,AAA opt,,

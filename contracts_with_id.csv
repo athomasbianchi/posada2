@@ -1,0 +1,527 @@
+,Team,Name,Level,Pos,Yrs,Cost,Note,Options,FangraphsId,EspnId
+0,Detroit Nittany Tide,Addison Barger,AA,3B,U,$-,,3.0,24598,4997589
+1,Detroit Nittany Tide,Heston Kjerstad,AA,OF,U,$-,,3.0,31166,
+2,Detroit Nittany Tide,Kevin Alcantara,AA,OF,U,$-,,3.0,25971,42500
+3,Detroit Nittany Tide,Kevin Alcantara,AA,OF,U,$-,,3.0,25971,
+4,Structure Fire,Connor Phillips,AA,SP,U,$-,,3.0,27649,
+5,Detroit Nittany Tide,Jackson Jobe,AA,SP,U,$-,,3.0,30203,4872647
+6,Structure Fire,Jordan Lawlar,AA,SS,U,$-,,3.0,29976,4872649
+7,Detroit Nittany Tide,Travis Bazzana,AA,2B,U,$-,,3.0,sa3025129,
+8,Ryno World,Chase Burns,AA,SP,U,$-,,3.0,,4927516
+9,Ryno World,Ben Joyce,AA,RP,U,$-,,3.0,31461,4867388
+10,Ryno World,Oscar Colas,AA,OF,U,$-,,2.0,30162,4987420
+11,Orlando Renegades,Jac Caglianone,AA,SP/1B,U,$-,,3.0,sa3025245,4926296
+12,Country Strong,Kyle Manzardo,AA,1B,U,$-,,3.0,29794,4917927
+13,Country Strong,Chase DeLauter,AA,OF,U,$-,,3.0,sa3021053,4619649
+14,Country Strong,Luis Matos,AA,OF,U,$-,,3.0,26467,4722941
+15,Springfield Zephyrs,Tink Hence,AA,SP,U,$-,,3.0,sa3014709,
+16,Country Strong,Christian Scott,AA,SP,U,$-,,2.0,30107,
+17,West Coast Spartans,Coby Mayo,AA,3B,U,$-,,3.0,28312,
+18,West Coast Spartans,Brock Wilken,AA,3B,U,$-,,3.0,sa3022499,4758886
+19,Orlando Renegades,Junior Caminero,AA,3B,U,$-,,3.0,28163,4905921
+20,Ryno World,Jace Jung,AA,2B,U,$-,,3.0,31437,
+21,Ryno World,Ethan Salas,AA,C,U,$-,,3.0,sa3020881,5124004
+22,Ryno World,Henry Davis,AA,C,U,$-,,2.0,29617,4418683
+23,Springfield Zephyrs,Samuel Basallo,AA,1B,U,$-,,3.0,sa3015716,
+24,West Coast Spartans,Victor Scott II,AA,OF,U,$-,,3.0,31349,
+25,Springfield Zephyrs,AJ Smith-Shawver,AA,SP,U,$-,,3.0,29960,4917640
+26,Springfield Zephyrs,Harry Ford,AA,C,U,$-,,3.0,sa3017627,
+27,Springfield Zephyrs,Kyle Teel,AA,C,U,$-,,3.0,sa3022886,
+28,Springfield Zephyrs,Ceddanne Rafaela,AA,OF,U,$-,,3.0,24262,4987382
+29,Springfield Zephyrs,Pete Crow-Armstrong,AA,OF,U,$-,,3.0,27769,4717833
+30,Springfield Zephyrs,Jordan Walker,AA,OF,U,$-,,2.0,27475,4684778
+31,Dip City Thunder,Michael Busch,AA,1B,U,$-,,2.0,26319,42415
+32,Springfield Zephyrs,Lucas Giolito,AA,SP,U,$-,,3.0,15474,32697
+33,Springfield Zephyrs,Rhett Lowder,AA,SP,U,$-,,3.0,33876,4758873
+34,Springfield Zephyrs,Robby Snelling,AA,SP,U,$-,,3.0,sa3020707,5080753
+35,Springfield Zephyrs,Noelvi Marte,AA,SS,U,$-,,3.0,26517,41307
+36,Springfield Zephyrs,Masyn Winn,AA,SS,U,$-,,3.0,27479,4683365
+37,Springfield Zephyrs,Jett Williams,AA,SS,U,$-,,3.0,sa3020134,5080638
+38,Springfield Zephyrs,Cole Young,AA,SS,U,$-,,3.0,sa3020459,5080641
+39,Springfield Zephyrs,Curtis Mead,AA,3B,U,$-,,3.0,23986,42360
+40,Springfield Zephyrs,Colt Keith,AA,3B,U,$-,,3.0,27899,4683384
+41,Springfield Zephyrs,Miguel Vargas,AA,2B,U,$-,,3.0,20178,42453
+42,Springfield Zephyrs,Luisangel Acuna,AA,2B,U,$-,,3.0,26548,
+43,Springfield Zephyrs,Matt Mervis,AA,1B,U,$-,,2.0,27845,4297978
+44,Dip City Thunder,Emmanuel Rodriguez,AA,OF,U,$-,,3.0,sa3014693,
+45,Dip City Thunder,Parker Meadows,AA,OF,U,$-,,2.0,23800,41223
+46,Dip City Thunder,Esteury Ruiz,AA,OF,U,$-,,1.0,21780,39680
+47,Dip City Thunder,Orelvis Martinez,AA,SS,U,$-,,3.0,25967,
+48,Structure Fire,Colton Cowser,AA,OF,U,$-,,3.0,29591,4416990
+49,Structure Fire,Marco Luciano,AA,3B,U,$-,,3.0,25616,
+50,Structure Fire,Brett Baty,AA,3B,U,$-,,3.0,26123,42414
+51,Structure Fire,Charlie Condon,AA,1B,U,$-,,3.0,sa3025257,5033089
+52,Springfield Zephyrs,Connor Norby,AA,2B,U,$-,,3.0,29592,4417606
+53,Orlando Renegades,Robert Gasser,AA,SP,U,$-,,2.0,29812,4918251
+54,Springfield Zephyrs,Trevor Rogers,AA,SP,U,$-,,3.0,22286,39640
+55,West Coast Spartans,Bryce Eldridge,AA,OF,U,$-,,3.0,sa3022757,5149064
+56,Midtown Jaguars,Daniel Espino,AA,SP,U,$-,,3.0,sa3011495,42438
+57,Midtown Jaguars,Forrest Whitley,AA,SP,U,$-,,3.0,19586,40915
+58,Midtown Jaguars,Bryce Miller,AA,SP,U,$-,,1.0,29837,4654313
+59,Midtown Jaguars,Grayson Rodriguez,AA,SP,U,$-,,1.0,24492,41196
+60,Midtown Jaguars,Carson Williams,AA,SS,U,$-,,3.0,sa3017795,
+61,Midtown Jaguars,Owen Caissie,AA,OF,U,$-,,3.0,sa3014465,
+62,Midtown Jaguars,Oswald Peraza,AA,SS,U,$-,,3.0,22823,42479
+63,Young Bucks,Will Warren,AA,SP,U,$-,,3.0,30182,
+64,Young Bucks,Eury Perez,AA,SP,U,$-,,2.0,10299,31286
+65,Young Bucks,Eury Perez,AA,SP,U,$-,,2.0,27768,4917854
+66,Young Bucks,Garrett Crochet,AA,SP,U,$-,,2.0,27463,4297835
+67,Midtown Jaguars,Bo Naylor,AA,C,U,$-,,2.0,21865,41183
+68,Midtown Jaguars,Tyler Soderstrom,AA,C,U,$-,,3.0,27467,4686066
+69,Cheating Raiders,Matt Shaw,AA,3B,U,$-,,3.0,sa3022615,4867667
+70,Bayou Shooters,Gavin Williams,AA,SP,U,$-,,3.0,30122,4345076
+71,Bayou Shooters,Luis Campusano,AA,C,U,$-,,3.0,22217,40521
+72,Bayou Shooters,Dustin Harris,AA,1B,U,$-,,3.0,25705,4917924
+73,Bayou Shooters,Edward Cabrera,AA,SP,U,$-,,3.0,21690,40944
+74,Bayou Shooters,Hurston Waldrep,AA,SP,U,$-,,3.0,33527,4740117
+75,Young Bucks,Cade Cavalli,AA,SP,U,$-,,3.0,27473,4308037
+76,Bayou Shooters,River Ryan,AA,SP,U,$-,,3.0,29514,
+77,Bayou Shooters,Taj Bradley,AA,SP,U,$-,,3.0,22543,42480
+78,Bayou Shooters,Dustin May,AA,SP,U,$-,,2.0,19716,40937
+79,Bayou Shooters,Ronny Mauricio,AA,SS,U,$-,,3.0,23698,40978
+80,Young Bucks,Roki Sasaki,AA,SP,U,$-,,3.0,sa3025686,5134638
+81,Cheating Raiders,Tyler Black,AA,3B,U,$-,,3.0,29949,
+82,Cheating Raiders,Cade Horton,AA,SP,U,$-,,3.0,sa3020860,
+83,West Coast Spartans,Gavin Stone,AA,SP,U,$-,,3.0,27792,4417230
+84,West Coast Spartans,Chase Hampton,AA,SP,U,$-,,3.0,sa3020682,5132219
+85,West Coast Spartans,Roman Anthony,AA,OF,U,$-,,3.0,sa3020211,5080767
+86,Midtown Jaguars,Noah Schultz,AA,1B,U,$-,,3.0,sa3020949,5080754
+87,Young Bucks,Jared Jones,AA,SP,U,$-,,2.0,27863,4918156
+88,Young Bucks,Matthew Liberatore,AA,SP,U,$-,,2.0,22294,41173
+89,Orlando Renegades,Wyatt Langford,AA,OF,U,$-,,3.0,33333,4719324
+90,Orlando Renegades,Andy Pages,AA,OF,U,$-,,2.0,24816,
+91,Orlando Renegades,Bubba Chandler,AA,SP,U,$-,,3.0,sa3017428,
+92,Young Bucks,Shane Baz,AA,SP,U,$-,,2.0,22264,39639
+93,West Coast Spartans,Jacob Misiorowski,AA,SP,U,$-,,3.0,sa3020644,5080761
+94,West Coast Spartans,Mick Abel,AA,SP,U,$-,,3.0,sa3014534,4718970
+95,West Coast Spartans,Ricky Tiedemann,AA,SP,U,$-,,3.0,sa3018096,4917902
+96,Cheating Raiders,Chase Dollander,AA,SP,U,$-,,3.0,sa3023361,4719068
+97,Cheating Raiders,Jordan Wicks,AA,SP,U,$-,,3.0,30094,
+98,Cheating Raiders,Ty Madden,AA,SP,U,$-,,3.0,30140,
+99,Cheating Raiders,Colson Montgomery,AA,SS,U,$-,,3.0,sa3017170,
+100,West Coast Spartans,Brooks Lee,AA,SS,U,$-,,3.0,31595,
+101,Bayou Shooters,Diego Cartaya,AA,C,U,$-,,3.0,sa3008742,41234
+102,Country Strong,Jackson Chourio,MLB,OF,9,$1.10,,,28806,4917869
+103,Country Strong,Jackson Holliday,MLB,2B,9,$1.15,,,31781,5080633
+104,Young Bucks,Jasson Dominguez,MLB,OF,9,$2.00,,,28080,42401
+105,Ryno World,Zac Veen,AA,OF,8,$1.00,,,sa3014516,4717903
+106,Country Strong,CJ Abrams,MLB,SS,8,$1.00,,,25768,42402
+107,Structure Fire,Marcelo Mayer,AA,SS,8,$1.00,,,sa3017114,
+108,Bayou Shooters,James Wood,AA,OF,8,$1.00,,,29518,4918256
+109,Structure Fire,Anthony Volpe,MLB,SS,7,$2.50,,,27647,42547
+110,Detroit Nittany Tide,Spencer Torkelson,MLB,1B,7,$1.50,,,27465,4424286
+111,Country Strong,Jack Leiter,AA,SP,6,$1.00,,,30146,4622181
+112,West Coast Spartans,Max Meyer,AA,SP,4,$1.70,,,27474,4345164
+113,Country Strong,Yoshinobu Yamamoto,MLB,SP,4,$1.00,,,33825,4872587
+114,Structure Fire,Dylan Carlson,AAA,OF,4,$2.15,,,20126,39226
+115,West Coast Spartans,Aaron Ashby,MLB,SP,4,$1.25,,,23550,41325
+116,Ryno World,Casey Mize,MLB,SP,4,$1.00,,,20492,41167
+117,Orlando Renegades,Ezequiel Tovar,MLB,SS,4,$1.05,,,24064,4905919
+118,Structure Fire,Jesus Luzardo,MLB,SP,3,$2.00,,,19959,39667
+119,Country Strong,Felix Bautista,MLB,RP,3,$1.00,@,3.0,20666,4905859
+120,Structure Fire,Alex Kirilloff,AAA,1B,3,$1.00,,,20325,40636
+121,Country Strong,Sandy Alcantara,MLB,SP,3,$1.05,,,18684,35241
+122,Country Strong,Fernando Tatis Jr.,MLB,OF,3,$1.00,,,19709,35983
+123,Country Strong,Luis Garcia,AAA,SP,3,$1.00,@,3.0,6984,33089
+124,Country Strong,Luis Garcia,AAA,SP,3,$1.00,@,3.0,20391,40459
+125,Country Strong,Luis Garcia,AAA,SP,3,$1.00,@,3.0,23735,4684365
+126,Midtown Jaguars,Luis Robert,MLB,OF,2,$1.00,,,20043,39631
+127,Ryno World,Joey Bart,MLB,C,2,$1.00,,,21524,41168
+128,Orlando Renegades,Trevor Bauer,AA,SP,2,$3.31,,,12703,32014
+129,Orlando Renegades,Ryan Pepiot,AAA,SP,2,$1.00,@,,26221,4208281
+130,Orlando Renegades,Bobby Miller,AAA,SP,2,$1.00,@,,27483,4326703
+131,Orlando Renegades,Gerrit Cole,MLB,SP,2,$2.20,,,13125,32081
+132,Springfield Zephyrs,Logan O'Hoppe,MLB,C,2,$1.00,@,,24729,42047
+133,Springfield Zephyrs,Reese Olson,MLB,SP,2,$1.00,,,24968,4734319
+134,Springfield Zephyrs,Austin Wells,AAA,C,2,$1.00,@,,27562,4683349
+135,Springfield Zephyrs,Zach Neto,AAA,SS,2,$1.00,@,,31347,4666100
+136,Springfield Zephyrs,Edouard Julien,AAA,2B,2,$1.00,@,,27534,3985190
+137,Detroit Nittany Tide,Daulton Varsho,MLB,OF,2,$2.00,,,19918,40963
+138,West Coast Spartans,Eloy Jimenez,MLB,OF,2,$1.00,,,17484,33867
+139,Cheating Raiders,Tanner Bibee,MLB,SP,2,$1.00,@,,30134,4345278
+140,Detroit Nittany Tide,Austin Martin,AAA,3B,2,$1.00,@,,27462,4297998
+141,West Coast Spartans,Evan Carter,MLB,OF,2,$1.00,@,,27790,
+142,West Coast Spartans,Sal Frelick,MLB,OF,2,$1.00,@,,29622,4417795
+143,Detroit Nittany Tide,Paul Skenes,MLB,SP,2,$1.00,@,,33677,4719507
+144,Detroit Nittany Tide,Chase Silseth,MLB,SP,2,$1.00,@,,30074,4413990
+145,Detroit Nittany Tide,Mickey Moniak,MLB,OF,2,$1.00,@,,19956,36181
+146,Detroit Nittany Tide,Josh Lowe,MLB,OF,2,$1.00,@,,19953,40557
+147,Detroit Nittany Tide,Brendan Rodgers,MLB,2B,2,$1.00,@,,17907,35073
+148,Young Bucks,Frankie Montas,MLB,SP,2,$1.00,@,,14309,33249
+149,Cheating Raiders,Manny Machado,MLB,3B,2,$7.00,,,11493,31097
+150,Young Bucks,Ke'Bryan Hayes,MLB,3B,2,$1.50,²,,18577,35020
+151,Cheating Raiders,Walker Buehler,MLB,SP,2,$1.69,,,19374,39251
+152,Young Bucks,Cole Ragans,MLB,SP,2,$5.45,,,21846,41054
+153,Detroit Nittany Tide,Yainer Diaz,MLB,C,2,$2.00,,,23003,4781491
+154,Detroit Nittany Tide,Zack Gelof,MLB,2B,2,$3.25,,,29766,4414531
+155,Country Strong,Nolan Gorman,AAA,2B,2,$1.00,@,,22263,41174
+156,Country Strong,Christian Encarnacion-Strand,MLB,1B,2,$1.00,@,,30011,5012106
+157,Country Strong,Nolan Jones,AAA,OF,2,$4.50,,,20529,37340
+158,Country Strong,Gunnar Henderson,MLB,SS,2,$1.00,@,,26289,42507
+159,Country Strong,Shota Imanaga,MLB,SP,2,$2.35,,,33829,5134630
+160,Young Bucks,Kyle Harrison,AAA,SP,2,$1.00,@,,27758,4683375
+161,Cheating Raiders,Jarred Kelenic,AAA,OF,2,$1.00,@,,22558,41150
+162,West Coast Spartans,Devin Williams,MLB,RP,2,$2.30,,,15816,33224
+163,Dip City Thunder,Louie Varland,MLB,SP,2,$1.00,,,27691,4917888
+164,Structure Fire,Francisco Alvarez,MLB,C,2,$1.00,@,,26121,41253
+165,Structure Fire,Elly De La Cruz,MLB,3B,2,$1.00,@,,26668,4917694
+166,Bayou Shooters,Ryne Nelson,MLB,SP,2,$1.00,@,,26253,4916269
+167,Structure Fire,James Outman,MLB,OF,2,$2.70,,,24770,41802
+168,Structure Fire,Jo Adell,AAA,OF,2,$1.00,@,,20220,40854
+169,Structure Fire,DL Hall,AAA,SP,2,$1.00,@,,22207,41018
+170,Bayou Shooters,Andres Gimenez,MLB,2B,2,$6.00,,,19950,37729
+171,Bayou Shooters,Brady Singer,MLB,SP,2,$3.00,,,25377,41172
+172,Bayou Shooters,Edwin Diaz,MLB,RP,2,$1.00,@,,14710,35394
+173,Dip City Thunder,Triston Casas,MLB,1B,2,$1.00,@,,22514,41180
+174,Bayou Shooters,Jackson Merrill,MLB,SS,2,$1.00,@,,29490,4872691
+175,Dip City Thunder,Mason Miller,MLB,RP,2,$1.00,,,31757,4730225
+176,Bayou Shooters,Oneil Cruz,MLB,SS,2,$1.00,@,,21711,39712
+177,Dip City Thunder,Royce Lewis,MLB,3B,2,$1.00,@,,20437,40635
+178,West Coast Spartans,Andrew Painter,AA,SP,11,$1.05,,,sa3017880,4872683
+179,Cheating Raiders,Nick Kurtz,AA,1B,11,$1.13,,,sa3025385,4966637
+180,FA,Willy Adames,MLB,SS,1,$1.00,,,15986,33675
+181,FA,Trevor Story,MLB,SS,1,$1.00,,,12564,32150
+182,FA,Trea Turner,MLB,SS,1,$1.00,,,16252,33710
+183,FA,Thairo Estrada,MLB,SS,1,$1.00,,,16426,36485
+184,FA,Josh Smith,MLB,SS,1,$1.00,,,10946,34719
+185,FA,Josh Smith,MLB,SS,1,$1.00,,,26396,42884
+186,FA,Carlos Correa,MLB,SS,1,$1.00,,,14162,32653
+187,FA,Dansby Swanson,MLB,SS,1,$1.00,,,18314,34895
+188,FA,Nick Gonzales,MLB,SS,1,$1.00,,,27490,4311634
+189,FA,Noah Syndergaard,MLB,SP,1,$1.00,,,11762,31730
+190,FA,Ha-Seong Kim,MLB,SS,1,$1.00,,,27506,4089862
+191,FA,Jose Caballero,MLB,SS,1,$1.00,,,23401,42135
+192,FA,J.P. Crawford,MLB,SS,1,$1.00,,,15491,33210
+193,FA,Nick Pivetta,MLB,SP,1,$1.00,,,15454,36071
+194,FA,Zach Eflin,MLB,SP,1,$1.00,,,13774,32804
+195,FA,Brice Turang,MLB,SS,1,$1.00,,,22186,41179
+196,FA,Seth Lugo,MLB,SP,1,$1.00,,,12447,34873
+197,FA,Zack Wheeler,MLB,SP,1,$1.00,,,10310,31267
+198,FA,Zack Littell,MLB,SP,1,$1.00,,,15823,36052
+199,Midtown Jaguars,Ryan McMahon,MLB,3B,1,80%,³,,15112,33247
+200,FA,Robbie Ray,MLB,SP,1,$1.00,,,11486,32175
+201,FA,Ronel Blanco,MLB,SP,1,$1.00,,,19407,41829
+202,FA,Sean Manaea,MLB,SP,1,$1.00,,,15873,33244
+203,FA,Shane Bieber,MLB,SP,1,$1.00,,,19427,40912
+204,FA,Amed Rosario,MLB,SS,1,$1.00,,,15518,33215
+205,FA,Sonny Gray,MLB,SP,1,$1.00,,,12768,32082
+206,FA,Spencer Arrighetti,MLB,SP,1,$1.00,,,29921,
+207,FA,Spencer Strider,MLB,SP,1,$1.00,,,27498,4307825
+208,FA,Tyler Glasnow,MLB,SP,1,$1.00,,,14374,33190
+209,FA,Tyler Wells,MLB,SP,1,$1.00,,,20000,4717904
+210,FA,Yu Darvish,MLB,SP,1,$1.00,,,13074,32055
+211,FA,Reynaldo Lopez,MLB,SP,1,$1.00,,,16400,33860
+212,FA,Brent Honeywell,MLB,SP,1,$1.00,,,16466,33838
+213,FA,Drey Jameson,MLB,SP,1,$1.00,,,26260,4415753
+214,FA,Ranger Suarez,MLB,SP,1,$1.00,,,17277,39817
+215,FA,Patrick Corbin,MLB,SP,1,$1.00,,,9323,31313
+216,FA,Pablo Lopez,MLB,SP,1,$1.00,,,17085,39671
+217,FA,Graham Ashcraft,MLB,SP,1,$1.00,,,27552,4084179
+218,FA,Kumar Rocker,MLB,SP,1,$1.00,,,31843,4414525
+219,FA,Kyle Hurt,MLB,SP,1,$1.00,,,27514,
+220,FA,Quinn Priester,MLB,SP,1,$1.00,,,25977,42449
+221,FA,Sixto Sanchez,MLB,SP,1,$1.00,,,19680,36186
+222,FA,Zac Gallen,MLB,SP,1,$1.00,,,19291,39910
+223,FA,Wilmer Flores,MLB,SP,1,$1.00,,,5827,30627
+224,FA,Wilmer Flores,MLB,SP,1,$1.00,,,sa3015223,5123583
+225,FA,Max Fried,MLB,SP,1,$1.00,,,13743,32685
+226,FA,Yusei Kikuchi,MLB,SP,1,$1.00,,,20633,41415
+227,FA,Dylan Moore,MLB,SS/OF/3B/2B,1,$1.00,,,18042,40593
+228,Bayou Shooters,Vladimir Guerrero Jr.,MLB,1B,1,80%,³,,19611,35002
+229,Midtown Jaguars,Kyle Tucker,MLB,OF,1,60%,²,,18345,34967
+230,Springfield Zephyrs,Gabriel Moreno,AA,C,1,$1.00,@,,22664,42464
+231,Springfield Zephyrs,Matt Manning,AA,SP,1,$1.00,@,,20369,40920
+232,Structure Fire,Tanner Houck,MLB,SP,1,40%,¹,,19879,41009
+233,Structure Fire,Pete Alonso,MLB,1B,1,$11.00,,,19251,37498
+234,Structure Fire,Ian Happ,MLB,OF,1,$4.05,,,17919,34945
+235,Structure Fire,Andres Munoz,MLB,RP,1,$1.15,,,20373,40939
+236,Structure Fire,Luis Arraez,MLB,2B,1,$1.00,,,18568,39572
+237,Structure Fire,Riley Greene,MLB,OF,1,$1.00,@,,25976,42179
+238,Structure Fire,Lars Nootbaar,MLB,OF,1,$1.00,,,21454,4448736
+239,Structure Fire,Jordan Hicks,MLB,SP,1,$1.00,,,19618,37909
+240,FA,Michael Wacha,MLB,SP,1,$1.00,,,14078,32640
+241,Structure Fire,Garrett Whitlock,MLB,SP,1,40%,¹,,20191,39674
+242,Structure Fire,Josiah Gray,MLB,SP,1,40%,¹,,24580,41165
+243,Structure Fire,Shane McClanahan,MLB,SP,1,40%,¹,,21483,41199
+244,West Coast Spartans,Corbin Carroll,MLB,OF,1,$1.00,@,,25878,42404
+245,West Coast Spartans,Griffin Canning,MLB,SP,1,$1.00,@,,19867,41065
+246,West Coast Spartans,Reid Detmers,MLB,SP,1,40%,¹,,27468,4326697
+247,Young Bucks,Michael King,MLB,SP,1,$4.15,,,19853,40429
+248,Young Bucks,Brandon Pfaadt,MLB,SP,1,$1.00,@,,27782,4721302
+249,Young Bucks,Brayan Bello,MLB,SP,1,$1.00,@,,23920,4720856
+250,Springfield Zephyrs,Bryson Stott,MLB,2B,1,$1.00,@,,26294,42417
+251,Ryno World,Vaughn Grissom,MLB,2B,1,$2.10,,,26031,42503
+252,Orlando Renegades,Cedric Mullins,MLB,OF,1,$1.05,,,17929,35578
+253,Midtown Jaguars,Joe Musgrove,MLB,SP,1,$9.70,,,12970,34848
+254,Midtown Jaguars,Nolan Arenado,MLB,3B,1,$3.55,,,9777,31261
+255,Midtown Jaguars,Jordan Montgomery,MLB,SP,1,$3.00,,,16511,38173
+256,Midtown Jaguars,Braxton Garrett,MLB,SP,1,$2.05,,,21844,40971
+257,Midtown Jaguars,Jazz Chisholm,MLB,2B,1,40%,¹,,20454,41433
+258,Midtown Jaguars,Keibert Ruiz,MLB,C,1,40%,¹,,19610,38827
+259,Midtown Jaguars,Seiya Suzuki,MLB,OF,1,40%,¹,,30116,4142424
+260,Midtown Jaguars,Vinnie Pasquantino,MLB,1B,1,$1.00,@,,27676,4109109
+261,Midtown Jaguars,Hunter Brown,MLB,SP,1,$1.00,@,,25880,4717803
+262,Orlando Renegades,Yordan Alvarez,MLB,OF,1,80%,³,,19556,36018
+263,Orlando Renegades,Jordan Westburg,MLB,2B,1,$1.00,,,27815,4298641
+264,Ryno World,Max Scherzer,MLB,SP,1,$1.00,,,3137,28976
+265,Orlando Renegades,Andrew Vaughn,AAA,1B,1,$-,@,,26197,42394
+266,Orlando Renegades,Sean Murphy,MLB,C,1,80%,³,,19352,33557
+267,Ryno World,Triston McKenzie,MLB,SP,1,$2.90,,,18000,34954
+268,Ryno World,Rhys Hoskins,MLB,1B,1,$2.69,,,16472,35291
+269,Ryno World,Jack Flaherty,MLB,SP,1,$2.05,,,17479,33837
+270,Ryno World,Jose Miranda,MLB,3B,1,$1.00,@,,20538,41000
+271,Ryno World,George Kirby,MLB,SP,1,$1.00,@,,25436,42406
+272,Ryno World,Michael Kopech,MLB,RP,1,$1.00,@,,17282,33763
+273,FA,Mitchell Parker,MLB,SP,1,$1.00,,,27636,
+274,FA,Clayton Kershaw,MLB,SP,1,$1.00,,,2036,28963
+275,FA,Merrill Kelly,MLB,SP,1,$1.00,,,11156,32968
+276,FA,Jonah Heim,MLB,C,1,$1.00,,,16930,33842
+277,FA,Aaron Judge,MLB,OF,1,$1.00,,,15640,33192
+278,FA,Shohei Ohtani,MLB,DH,1,$1.00,,,19755,39832
+279,FA,Shohei Ohtani,MLB,DH,1,$1.00,,,19755,39832
+280,FA,Marcell Ozuna,MLB,DH,1,$1.00,,,10324,31668
+281,FA,Joey Meneses,MLB,DH,1,$1.00,,,14366,34534
+282,FA,Willson Contreras,MLB,C,1,$1.00,,,11609,32532
+283,FA,William Contreras,MLB,C,1,$1.00,,,20503,39895
+284,FA,Will Smith,MLB,C,1,$1.00,,,8048,31549
+285,FA,Will Smith,MLB,C,1,$1.00,,,19197,38309
+286,FA,Salvador Perez,MLB,C,1,$1.00,,,7304,31127
+287,FA,Patrick Bailey,MLB,C,1,$1.00,,,27478,4345843
+288,FA,Mitch Garver,MLB,C,1,$1.00,,,15161,33667
+289,FA,Connor Wong,MLB,C,1,$1.00,,,19896,40086
+290,FA,Otto Lopez,MLB,OF,1,$1.00,,,19608,41917
+291,FA,Cal Raleigh,MLB,C,1,$1.00,,,21534,41292
+292,FA,Ben Rice,MLB,C,1,$1.00,,,29576,
+293,FA,Yoan Moncada,MLB,3B,1,$1.00,,,17232,33984
+294,FA,Tyler Freeman,MLB,3B,1,$1.00,,,22532,40958
+295,FA,Max Muncy,MLB,3B,1,$1.00,,,13301,33303
+296,FA,Mark Vientos,MLB,3B,1,$1.00,,,22184,41034
+297,FA,Jose Ramirez,MLB,3B,1,$1.00,,,13510,32801
+298,FA,Jose Ramirez,MLB,3B,1,$1.00,,,10171,32603
+299,FA,Jake Burger,MLB,3B,1,$1.00,,,22275,39882
+300,FA,Isaac Paredes,MLB,3B,1,$1.00,,,20036,39706
+301,FA,Anthony Rendon,MLB,3B,1,$1.00,,,12861,32098
+302,FA,Adalberto Mondesi,MLB,3B,1,$1.00,,,13769,32821
+303,FA,Anthony Santander,MLB,OF,1,$1.00,,,14551,36084
+304,FA,Austin Meadows,MLB,OF,1,$1.00,,,15672,33197
+305,FA,Brendan Donovan,MLB,OF,1,$1.00,,,24679,41773
+306,FA,Mike Trout,MLB,OF,1,$1.00,,,10155,30836
+307,Cheating Raiders,Austin Riley,MLB,3B,1,60%,²,,18360,34982
+308,FA,Max Kepler,MLB,OF,1,$1.00,,,12144,31870
+309,FA,Masataka Yoshida,MLB,OF,1,$1.00,,,31837,4872598
+310,FA,Mark Canha,MLB,OF,1,$1.00,,,11445,31670
+311,FA,Lane Thomas,MLB,OF,1,$1.00,,,16939,36409
+312,FA,Kyle Schwarber,MLB,OF,1,$1.00,,,16478,33712
+313,FA,Jurickson Profar,MLB,OF,1,$1.00,,,10815,31117
+314,FA,Jorge Soler,MLB,OF,1,$1.00,,,14221,32558
+315,Bayou Shooters,Jonathan India,MLB,2B,1,60%,²,,21523,41171
+316,Bayou Shooters,Gavin Lux,MLB,SS,1,60%,²,,19955,40423
+317,Bayou Shooters,MJ Melendez,MLB,OF,1,$1.00,@,,22197,40948
+318,Bayou Shooters,Chris Paddack,MLB,SP,1,$1.00,,,20099,35999
+319,Bayou Shooters,Mike Soroka,MLB,SP,1,$1.00,,,18383,34984
+320,FA,Jesus Sanchez,MLB,OF,1,$1.00,,,19913,39957
+321,FA,George Springer,MLB,OF,1,$1.00,,,12856,32078
+322,FA,David Fry,MLB,OF,1,$1.00,,,24934,
+323,FA,Christian Yelich,MLB,OF,1,$1.00,,,11477,31283
+324,FA,Chas McCormick,MLB,OF,1,$1.00,,,19599,40574
+325,FA,Bryan Reynolds,MLB,OF,1,$1.00,,,19326,38980
+326,FA,Brenton Doyle,MLB,OF,1,$1.00,,,25479,42462
+327,FA,Ozzie Albies,MLB,2B,1,$1.00,,,16556,33783
+328,FA,Gleyber Torres,MLB,2B,1,$1.00,,,16997,33804
+329,Dip City Thunder,Jarren Duran,MLB,OF,1,$1.00,@,,24617,41610
+330,Dip City Thunder,Spencer Steer,MLB,1B,1,$1.00,@,,26323,4722857
+331,Dip City Thunder,Jeremy Pena,MLB,SS,1,40%,¹,,21636,41273
+332,Dip City Thunder,Julio Rodriguez,MLB,OF,1,40%,¹,,23697,41044
+333,Cheating Raiders,Dylan Cease,MLB,SP,1,60%,²,,18525,34943
+334,Cheating Raiders,Logan Gilbert,MLB,SP,1,40%,¹,,22250,41221
+335,Cheating Raiders,Tarik Skubal,MLB,SP,1,40%,¹,,22267,42409
+336,Cheating Raiders,Adolis Garcia,MLB,OF,1,$6.40,,,19287,35537
+337,Cheating Raiders,Cody Bellinger,MLB,OF,1,$1.50,,,15998,33912
+338,Detroit Nittany Tide,Nick Lodolo,MLB,SP,1,$1.00,@,,26378,42433
+339,Detroit Nittany Tide,Hunter Greene,MLB,SP,1,$1.00,@,,22182,39635
+340,Detroit Nittany Tide,Ian Anderson,MLB,SP,1,60%,²,,19951,40916
+341,Detroit Nittany Tide,Tyler Mahle,MLB,SP,1,$1.85,,,16358,34973
+342,Detroit Nittany Tide,Alex Bregman,MLB,3B,1,$6.50,,,17678,34886
+343,Cheating Raiders,Adley Rutschman,MLB,C,1,$1.00,@,,26288,42178
+344,Country Strong,Roansy Contreras,AAA,SP,1,$1.00,,,22810,40967
+345,Country Strong,Josh Jung,MLB,3B,1,$1.00,@,,26299,42437
+346,Country Strong,Rowdy Tellez,AAA,1B,1,$2.00,,,15679,34287
+347,Country Strong,Carlos Rodon,MLB,SP,1,$5.50,,,16137,33696
+348,Country Strong,Corey Seager,MLB,SS,1,$7.50,,,13624,32691
+349,Country Strong,Freddy Peralta,MLB,SP,1,60%,²,,18679,39825
+350,Country Strong,Brandon Lowe,MLB,2B,1,60%,²,,18882,39961
+351,Cheating Raiders,Bobby Witt Jr.,MLB,SS,1,$1.00,@,,25764,42403
+352,Dip City Thunder,Alec Bohm,MLB,3B,1,60%,²,,21618,41169
+353,Dip City Thunder,Tylor Megill,AA,SP,1,40%,,,21318,3332018
+354,FA,Xavier Edwards,MLB,2B,1,$1.00,,,22266,41326
+355,Cheating Raiders,Nico Hoerner,MLB,2B,1,60%,²,,21479,41219
+356,FA,Willi Castro,MLB,2B,1,$1.00,,,17338,34230
+357,FA,Tommy Edman,MLB,2B,1,$1.00,,,19470,39907
+358,FA,Ramon Urias,MLB,2B,1,$1.00,,,18795,40610
+359,FA,Mookie Betts,MLB,2B,1,$1.00,,,13611,33039
+360,FA,Marcus Semien,MLB,2B,1,$1.00,,,12533,32146
+361,FA,Luis Rengifo,MLB,2B,1,$1.00,,,19858,37237
+362,FA,Ketel Marte,MLB,2B,1,$1.00,,,13613,32512
+363,FA,Jose Altuve,MLB,2B,1,$1.00,,,5417,31662
+364,FA,Jorge Polanco,MLB,2B,1,$1.00,,,13152,32525
+365,FA,Joey Ortiz,MLB,2B,1,$1.00,,,25493,42958
+366,FA,Jake Cronenworth,MLB,2B,1,$1.00,,,18036,36364
+367,FA,Abraham Toro,MLB,2B,1,$1.00,,,19844,40754
+368,FA,Juan Yepez,MLB,1B,1,$1.00,,,18400,4895558
+369,FA,Yandy Diaz,MLB,1B,1,$1.00,,,16578,33481
+370,FA,Ryan Noda,MLB,1B,1,$1.00,,,23312,40518
+371,FA,Paul Goldschmidt,MLB,1B,1,$1.00,,,9218,31027
+372,FA,Matt Olson,MLB,1B,1,$1.00,,,14344,32767
+373,FA,Josh Naylor,MLB,1B,1,$1.00,,,18839,35066
+374,FA,Freddie Freeman,MLB,1B,1,$1.00,,,5361,30193
+375,FA,Connor Joe,MLB,1B,1,$1.00,,,16572,35440
+376,FA,Christian Walker,MLB,1B,1,$1.00,,,13419,32758
+377,FA,Bryce Harper,MLB,1B,1,$1.00,,,11579,30951
+378,Cheating Raiders,Corbin Burnes,MLB,SP,1,80%,³,,19361,39878
+379,Cheating Raiders,Mitch Keller,MLB,SP,1,80%,³,,17594,33722
+380,FA,Nelson Velazquez,MLB,OF,1,$1.00,,,23359,41047
+381,FA,Michael Conforto,MLB,OF,1,$1.00,,,16376,33711
+382,FA,Randy Arozarena,MLB,OF,1,$1.00,,,19290,36488
+383,FA,Bryce Elder,MLB,SP,1,$1.00,,,27779,4301067
+384,FA,Erick Fedde,MLB,SP,1,$1.00,,,17425,33793
+385,FA,Eduardo Rodriguez,MLB,SP,1,$1.00,,,13164,32675
+386,FA,Drew Rasmussen,MLB,SP,1,$1.00,,,25385,42584
+387,FA,Dean Kremer,MLB,SP,1,$1.00,,,19350,38295
+388,FA,Dane Dunning,MLB,SP,1,$1.00,,,19409,36080
+389,FA,Dakota Hudson,MLB,SP,1,$1.00,,,19206,38680
+390,FA,Cristian Javier,MLB,SP,1,$1.00,,,17606,41261
+391,Bayou Shooters,Rafael Devers,MLB,3B,1,80%,³,,17350,33859
+392,FA,Chris Sale,MLB,SP,1,$1.00,,,10603,30948
+393,FA,Chris Bassitt,MLB,SP,1,$1.00,,,12304,33148
+394,FA,Charlie Morton,MLB,SP,1,$1.00,,,4676,29155
+395,FA,Cal Quantrill,MLB,SP,1,$1.00,,,19312,39875
+396,FA,Bryan Woo,MLB,SP,1,$1.00,,,30279,4629089
+397,FA,Blake Snell,MLB,SP,1,$1.00,,,13543,33748
+398,FA,Bailey Ober,MLB,SP,1,$1.00,,,21224,3107919
+399,FA,Andrew Heaney,MLB,SP,1,$1.00,,,15423,32672
+400,FA,Andrew Abbott,MLB,SP,1,$1.00,,,29911,4414528
+401,FA,Alek Manoah,MLB,SP,1,$1.00,,,26410,42436
+402,FA,Adrian Houser,MLB,SP,1,$1.00,,,12718,32157
+403,FA,Aaron Nola,MLB,SP,1,$1.00,,,16149,33709
+404,FA,Aaron Civale,MLB,SP,1,$1.00,,,19479,40934
+405,FA,Yimi Garcia,MLB,RP,1,$1.00,,,12095,32888
+406,FA,Ronald Acuna,MLB,OF,1,$1.00,,,18401,36185
+407,FA,Framber Valdez,MLB,SP,1,$1.00,,,17295,36581
+408,FA,Javier Assad,MLB,SP,1,$1.00,,,21741,5002950
+409,FA,Ryan Walker,MLB,RP,1,$1.00,,,20423,5000950
+410,FA,Kodai Senga,MLB,SP,1,$1.00,,,31838,4142421
+411,FA,Matt Waldron,MLB,SP,1,$1.00,,,25550,4020158
+412,FA,Martin Perez,MLB,SP,1,$1.00,,,6902,31098
+413,FA,Marcus Stroman,MLB,SP,1,$1.00,,,13431,32815
+414,FA,Luis Gil,MLB,SP,1,$1.00,,,21052,40626
+415,FA,Luis Castillo,MLB,SP,1,$1.00,,,15689,35124
+416,FA,Logan Webb,MLB,SP,1,$1.00,,,17995,41216
+417,FA,Lance Lynn,MLB,SP,1,$1.00,,,2520,30820
+418,FA,Kyle Wright,MLB,SP,1,$1.00,,,19665,39652
+419,FA,Kyle Hendricks,MLB,SP,1,$1.00,,,12049,33173
+420,FA,Kyle Gibson,MLB,SP,1,$1.00,,,10123,31053
+421,FA,Kyle Bradish,MLB,SP,1,$1.00,,,24586,4311625
+422,FA,Kutter Crawford,MLB,SP,1,$1.00,,,20531,41277
+423,FA,Kevin Gausman,MLB,SP,1,$1.00,,,14107,32667
+424,FA,Jeffrey Springs,MLB,SP,1,$1.00,,,17677,35397
+425,FA,Kenta Maeda,MLB,SP,1,$1.00,,,18498,34892
+426,FA,Keaton Winn,MLB,SP,1,$1.00,,,23499,
+427,FA,Justin Verlander,MLB,SP,1,$1.00,,,8700,6341
+428,FA,Justin Steele,MLB,SP,1,$1.00,,,17312,41022
+429,FA,Julio Urias,MLB,SP,1,$1.00,,,14765,33223
+430,FA,JP Sears,MLB,SP,1,$1.00,,,23429,39818
+431,FA,Jose Urquidy,MLB,SP,1,$1.00,,,18413,35759
+432,FA,Jose Berrios,MLB,SP,1,$1.00,,,14168,32811
+433,FA,Jon Gray,MLB,SP,1,$1.00,,,14916,33203
+434,FA,John Means,MLB,SP,1,$1.00,,,16269,39948
+435,FA,Joe Ryan,MLB,SP,1,$1.00,,,21390,42450
+436,FA,Tanner Scott,MLB,RP,1,$1.00,,,17586,35135
+437,FA,David Bednar,MLB,RP,1,$1.00,,,19569,38303
+438,FA,Evan Phillips,MLB,RP,1,$1.00,,,17734,37911
+439,FA,David Robertson,MLB,RP,1,$1.00,,,8241,29172
+440,FA,Ryan Helsley,MLB,RP,1,$1.00,,,18138,39909
+441,FA,Craig Kimbrel,MLB,RP,1,$1.00,,,6655,30653
+442,FA,Clay Holmes,MLB,RP,1,$1.00,,,13649,32827
+443,FA,Chris Devenski,MLB,RP,1,$1.00,,,12763,32511
+444,FA,Chad Green,MLB,RP,1,$1.00,,,15552,33325
+445,FA,Carlos Estevez,MLB,RP,1,$1.00,,,14542,34861
+446,FA,Camilo Doval,MLB,RP,1,$1.00,,,21992,41337
+447,FA,Calvin Faucher,MLB,RP,1,$1.00,,,20116,
+448,FA,Bowden Francis,MLB,RP,1,$1.00,,,20548,4734325
+449,FA,Alexis Diaz,MLB,RP,1,$1.00,,,21132,4905920
+450,FA,Alex Lange,MLB,RP,1,$1.00,,,19883,40976
+451,FA,Adbert Alzolay,MLB,RP,1,$1.00,,,17859,39802
+452,FA,Abner Uribe,MLB,RP,1,$1.00,,,25327,
+453,FA,A.J. Puk,MLB,RP,1,$1.00,,,19343,36201
+454,FA,Garrett Mitchell,MLB,OF,1,$1.00,,,27555,4313442
+455,Bayou Shooters,Alex Verdugo,MLB,OF,1,80%,³,,17027,33786
+456,FA,Juan Soto,MLB,OF,1,$1.00,,,20123,36969
+457,FA,Kristian Robinson,MLB,OF,1,$1.00,,,sa3006884,39677
+458,FA,George Valera,MLB,OF,1,$1.00,,,sa3006872,41030
+459,FA,Victor Robles,MLB,OF,1,$1.00,,,18363,35042
+460,FA,TJ Friedl,MLB,OF,1,$1.00,,,19522,36020
+461,FA,Teoscar Hernandez,MLB,OF,1,$1.00,,,13066,33377
+462,FA,Taylor Ward,MLB,OF,1,$1.00,,,17548,34923
+463,FA,Steven Kwan,MLB,OF,1,$1.00,,,24610,41996
+464,Cheating Raiders,Clarke Schmidt,MLB,SP,1,$1.00,@,,19899,41085
+465,FA,Josh Hader,MLB,RP,1,$1.00,,,14212,32760
+466,FA,Kyle Finnegan,MLB,RP,1,$1.00,,,15009,36543
+467,FA,Kirby Yates,MLB,RP,1,$1.00,,,9073,32623
+468,FA,Kevin Ginkel,MLB,RP,1,$1.00,,,19876,41432
+469,FA,Raisel Iglesias,MLB,RP,1,$1.00,,,17130,33618
+470,FA,Reed Garrett,MLB,RP,1,$1.00,,,16866,
+471,FA,Kenley Jansen,MLB,RP,1,$1.00,,,3096,29630
+472,FA,Robert Stephenson,MLB,RP,1,$1.00,,,13594,32134
+473,FA,Jose Leclerc,MLB,RP,1,$1.00,,,14524,33926
+474,FA,Jose Alvarado,MLB,RP,1,$1.00,,,17780,36063
+475,FA,Jordan Romano,MLB,RP,1,$1.00,,,16122,36380
+476,FA,Robert Suarez,MLB,RP,1,$1.00,,,30115,4148749
+477,FA,Paul Sewald,MLB,RP,1,$1.00,,,13892,35009
+478,FA,Joel Payamps,MLB,RP,1,$1.00,,,14332,
+479,FA,Jhoan Duran,MLB,RP,1,$1.00,,,21029,41109
+480,FA,Jeff Hoffman,MLB,RP,1,$1.00,,,17432,33841
+481,FA,Jason Foley,MLB,RP,1,$1.00,,,19531,42698
+482,FA,Hunter Harvey,MLB,RP,1,$1.00,,,15507,33191
+483,FA,Hector Neris,MLB,RP,1,$1.00,,,11804,32377
+484,FA,Griffin Jax,MLB,RP,1,$1.00,,,20253,42604
+485,West Coast Spartans,Eugenio Suarez,AAA,3B,0,AAA opt,,,12552,32367
+486,West Coast Spartans,Justin Turner,AAA,1B,0,AAA opt,,,5235,29607
+487,Bayou Shooters,Patrick Sandoval,AAA,SP,0,AAA opt,,,19447,40975
+488,Young Bucks,Trevor Williams,AAA,SP,0,AAA opt,,,16977,33305
+489,Young Bucks,DJ LeMahieu,AAA,1B,0,AAA opt,,,9874,30765
+490,Bayou Shooters,Steven Matz,AAA,RP,0,AAA opt,,,13361,33106
+491,Bayou Shooters,Anthony Rizzo,AAA,1B,0,AAA opt,,,3473,30782
+492,Bayou Shooters,Tyler O'Neill,AAA,OF,0,AAA opt,,,15711,34168
+493,Young Bucks,Taijuan Walker,AAA,SP,0,AAA opt,,,11836,31864
+494,Young Bucks,Alejandro Kirk,AAA,C,0,AAA opt,,,22581,42081
+495,Young Bucks,Jeff McNeil,AAA,2B,0,AAA opt,,,15362,33900
+496,Bayou Shooters,Justin Lawrence,AAA,RP,0,AAA opt,,,17639,
+497,Ryno World,Jake Irvin,AAA,SP,0,AAA opt,,,21504,41290
+498,Cheating Raiders,Shea Langeliers,AAA,C,0,AAA opt,,,25816,42598
+499,Cheating Raiders,Kerry Carpenter,AAA,OF,0,AAA opt,,,25961,42714
+500,Midtown Jaguars,Scott Barlow,AAA,RP,0,AAA opt,,,14993,32156
+501,Midtown Jaguars,Tyler Anderson,AAA,SP,0,AAA opt,,,12880,32151
+502,Orlando Renegades,Jack Suwinski,AAA,OF,0,AAA opt,,,22244,36754
+503,Orlando Renegades,Paul Blackburn,AAA,SP,0,AAA opt,,,14739,32776
+504,Ryno World,Jose Abreu,AAA,1B,0,AAA opt,,,15676,33095
+505,Ryno World,Matt Chapman,AAA,3B,0,AAA opt,,,16505,33857
+506,Ryno World,Gary Sanchez,AAA,C,0,AAA opt,,,11442,31095
+507,Ryno World,Kris Bryant,AAA,OF,0,AAA opt,,,15429,33172
+508,Ryno World,Whit Merrifield,AAA,OF,0,AAA opt,,,11281,32422
+509,Ryno World,Aroldis Chapman,AAA,RP,0,AAA opt,,,10233,30442
+510,Ryno World,Joe Ross,AAA,SP,0,AAA opt,,,12972,32684
+511,Dip City Thunder,Brandon Drury,AAA,1B,0,AAA opt,,,11615,32269
+512,Cheating Raiders,Orlando Arcia,AAA,SS,0,AAA opt,,,13185,32530
+513,Dip City Thunder,Miles Mikolas,AAA,SP,0,AAA opt,,,9803,32116
+514,Dip City Thunder,Ryan Jeffers,AAA,C,0,AAA opt,,,24618,41587
+515,Dip City Thunder,Ezequiel Duran,AAA,3B,0,AAA opt,,,23733,42457
+516,Dip City Thunder,Luis Severino,AAA,SP,0,AAA opt,,,15890,33263
+517,Detroit Nittany Tide,Colin Rea,AAA,RP,0,AAA opt,,,12317,33950
+518,Detroit Nittany Tide,Jameson Taillon,AAA,SP,0,AAA opt,,,11674,31258
+519,Detroit Nittany Tide,Tyler Stephenson,AAA,C,0,AAA opt,,,17988,34975
+520,Detroit Nittany Tide,Ty France,AAA,1B,0,AAA opt,,,17982,35591
+521,Country Strong,James Paxton,AAA,SP,0,AAA opt,,,11828,31980
+522,Cheating Raiders,Brent Rooker,AAA,OF,0,AAA opt,,,19627,40926
+523,Cheating Raiders,Elias Diaz,AAA,C,0,AAA opt,,,11680,33594
+524,Cheating Raiders,Josh Bell,AAA,1B,0,AAA opt,,,13145,32517
+525,Young Bucks,Jose Quintana,AAA,SP,0,AAA opt,,,11423,32106
