@@ -17,7 +17,7 @@ def add_ids(contracts):
   contracts.drop_duplicates(subset=['Name'], keep='first', inplace=True, ignore_index=True)
   contracts = contracts.set_index('Name')
 
-  # batter & pitcher zips projectsions (deepest ids)
+  # batter & pitcher zips projections (deepest ids)
   batters = pd.read_csv("zipsb.csv", dtype=str)
   batters = batters[['Name', 'PlayerId']]
   batters.rename(columns={'PlayerId': 'FangraphsId'}, inplace=True)
@@ -62,26 +62,19 @@ def add_ids(contracts):
 
   # unnamed = contracts[contracts['FangraphsId'].isna()]
   # print(unnamed)
-
+  # print(contracts)
   return contracts
 
+# TODO later, not important now
 def format_contracts(contracts):
   contracts = contracts.reset_index()
   print(contracts)
-  contracts = contracts.set_index('FangraphsId')
-  print(contracts)
-  print(contracts.index.is_unique)
-  duplicates = contracts.index.duplicated(keep=False)
-  print(duplicates)
 
-  contracts = contracts.groupby(level=0).first()  # remove duplicates
-  print(contracts)
-  print(contracts.index.is_unique)
+  # check for dups
+  # ids = contracts['FangraphsId']
+  # dups = contracts[ids.isin(ids[ids.duplicated()])].sort_values("FangraphsId")
+  # print(dups)
 
-  # adael = contracts[contracts['Name'] == 'Adael Amador']
-  # print(adael)
-  # print(contracts[contracts['Yrs'].isna()])
-  # print(contracts.iloc['Adael Amador'])
 
   # print(contracts.columns)
   # print(contracts.head(10))
@@ -104,8 +97,22 @@ def format_contracts(contracts):
   # print(longs.head(20))
   return contracts
 
+def add_projections(contracts):
+  h = pd.read_csv('hitters_simp.csv')
+  sp = pd.read_csv('sp_simp.csv')
+  rp = pd.read_csv('rp_simp.csv')
+
+  proj = pd.concat([h, sp, rp], ignore_index=True)
+  proj.sort_values(by="VORP", ascending=False, inplace=True, ignore_index=True)
+  print(proj.head(25))
+  # proj_merge = proj[]
+
+  # print(contracts)
+  return contracts
+
 contracts = add_ids(contracts)
 contracts = format_contracts(contracts)
+contracts = add_projections(contracts)
 
 # yb = (contracts[contracts['Team'] == 'Young Bucks'])
 # print(yb.shape)
