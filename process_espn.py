@@ -328,37 +328,26 @@ tj_team_dict = {
 
 with open('espn.json', 'r') as file:
     data = json.load(file)
-    dict = {}
-    for d in data[0:10]:
+    export_data = []
+    for d in data:
+      player_data = {}
       espn_id = d['id']
-      dict[espn_id] = []
+      player_data['EspnId'] = espn_id
       player = d['player']
-      player_name_full = player['fullName']
-      dict[espn_id].append(player_name_full)
-      if d['onTeamId'] in tj_team_dict:
-        print(tj_team_dict[d['onTeamId']])
-      else:
-        print(d['onTeamId'])
-      print('Positions: ', end="")
+      player_data['Name'] = player['fullName']
       for pos in player['eligibleSlots']:
         if not pos in pos_list:
           continue
         if pos in pos_dict:
-          print(pos_dict[pos], end=" ")
+          player_data[pos_dict[pos]] = True
         else:
           print(pos)
-      print('\r')
-      print(player['injuryStatus'])
       # print(player['stats'])
       for year in player['stats']:
         if year['id'] == '102025':
-          print(round(year['appliedTotal'],0))
-      print('\n')
-    print(dict)
+          player_data['Espn_proj'] = round(year['appliedTotal'],0)
+      export_data.append(player_data)
+    df = pd.DataFrame(export_data)
+    df.fillna(False, inplace=True)
+    df.to_csv("positions.csv")
 
-        # print(d['onTeamId'])
-        # print('pos')
-        # print(player['defaultPositionId'])
-        # print(player['eligibleSlots'])
-        # print(player['id'])
-        # print('\n')

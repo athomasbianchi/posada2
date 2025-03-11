@@ -104,15 +104,50 @@ def add_projections(contracts):
 
   proj = pd.concat([h, sp, rp], ignore_index=True)
   proj.sort_values(by="VORP", ascending=False, inplace=True, ignore_index=True)
-  print(proj.head(25))
-  # proj_merge = proj[]
 
-  # print(contracts)
-  return contracts
+  proj_merge = proj[['Name', 'NameASCII', 'Team', 'FangraphsId', 'PTS', 'PTS/G', 'VORP']]
+  contracts_merge = contracts[['FangraphsId', 'EspnId', 'Team']]
+
+  merged = pd.merge(proj_merge, contracts_merge, how='left', on='FangraphsId')
+  merged.rename(columns={'Team_x': 'Pro', 'Team_y': 'TJ'}, inplace=True)
+  merged.loc[merged['TJ'].isna(), 'TJ'] = 'FA'
+
+  return merged
+
+def add_positions(merged):
+  pos = pd.read_csv('positions.csv')
+  # merged_wo_eid = merged[merged['EspnId'].isna()]
+  eid_merge = pos[['Name', 'EspnId']]
+  eid_merge.rename(columns={'Name': 'NameASCII'}, inplace=True)
+  eid_merge['EspnId'].astype('int64')
+  eid_merge['NameASCII'] = eid_merge['NameASCII'].replace('Luis Ortiz', 'Luis L. Ortiz')
+  eid_merge['NameASCII'] = eid_merge['NameASCII'].replace('Jose Ferrer',  'Jose A. Ferrer')
+  eid_merge = pd.concat([eid_merge, pd.DataFrame({
+    "NameASCII": ['Kyle Hart'],
+    "EspnId": ["39936"]
+  }, index=None)], ignore_index=True)
+
+  merged = pd.merge(merged, eid_merge, on='NameASCII', how='left')
+  merged['EspnId_x'].fillna(merged['EspnId_y'], inplace=True)
+  # merged_wo_eid = merged[merged['EspnId_x'].isna()]
+  # print(merged_wo_eid)
+  merged.rename(columns={'EspnId_x': 'EspnId'}, inplace=True)
+  print(merged.head(25))
+  pos_to_merge = pos[['EspnId', 'Espn_proj', 'C', '1B', '2B', '3B', 'SS', 'OF', 'Util', 'SP', 'RP', 'P']]
+  print(pos_to_merge.head(25))
+
+  # print(merged)
+  # print(merged['EspnId_x'].dtype)
+  # print(merged['EspnId_y'].dtype)
+  # print(eid_merge)
+
+
 
 contracts = add_ids(contracts)
 contracts = format_contracts(contracts)
-contracts = add_projections(contracts)
+merged = add_projections(contracts)
+ranks = add_positions(merged)
+
 
 # yb = (contracts[contracts['Team'] == 'Young Bucks'])
 # print(yb.shape)

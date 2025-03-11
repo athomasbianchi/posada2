@@ -7,7 +7,7 @@ load_dotenv()
 
 url = os.getenv('URL')
 
-COUNT = 1000
+COUNT = 2000
 
 payload = {}
 headersDict = {
@@ -32,11 +32,11 @@ playersList = data['players']
 
 filename = "espn.json"
 
-# with open(filename, 'w') as file:
-#     json.dump(playersList, file, indent=4)
+with open(filename, 'w') as file:
+    json.dump(playersList, file, indent=4)
 
-for player in playersList[0:10]:
-    print(player['onTeamId'])
-    print(player['id'])
-    print(player['player']['fullName'])
+# for player in playersList[0:10]:
+#     print(player['onTeamId'])
+#     print(player['id'])
+#     print(player['player']['fullName'])
 
