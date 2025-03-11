@@ -129,24 +129,75 @@ def add_positions(merged):
 
   merged = pd.merge(merged, eid_merge, on='NameASCII', how='left')
   merged['EspnId_x'].fillna(merged['EspnId_y'], inplace=True)
-  # merged_wo_eid = merged[merged['EspnId_x'].isna()]
-  # print(merged_wo_eid)
   merged.rename(columns={'EspnId_x': 'EspnId'}, inplace=True)
-  print(merged.head(25))
-  pos_to_merge = pos[['EspnId', 'Espn_proj', 'C', '1B', '2B', '3B', 'SS', 'OF', 'Util', 'SP', 'RP', 'P']]
-  print(pos_to_merge.head(25))
 
-  # print(merged)
-  # print(merged['EspnId_x'].dtype)
-  # print(merged['EspnId_y'].dtype)
-  # print(eid_merge)
+  pos_to_merge = pos[['Name', 'EspnId', 'Espn_proj', 'C', '1B', '2B', '3B', 'SS', 'OF', 'Util', 'SP', 'RP', 'P']]
 
+  merged = merged.astype({'EspnId': 'str'})
+  pos_to_merge = pos_to_merge.astype({'EspnId': 'str'})
 
+  with_pos = pd.merge(merged, pos_to_merge, how="left", on="EspnId")
+  with_pos.sort_values(by='VORP', ascending=False, inplace=True)
+  return(with_pos)
+
+def find_hitter_vorp(ranks):
+  hitters = ranks[(ranks['Util'] == True) & (ranks['VORP'] >= -10)]
+  catcher = hitters[hitters['C'] == True]
+  first = hitters[hitters['1B'] == True]
+  second = hitters[hitters['2B'] == True]
+  third = hitters[hitters['3B'] == True]
+  short = hitters[hitters['SS'] == True]
+  of = hitters[hitters['OF'] == True]
+  dh_only = hitters[(hitters["C"] == False) & (hitters['1B'] == False) & (hitters['2B'] == False) & (hitters['3B'] == False) & (hitters['SS'] == False) & (hitters['OF'] == False)]
+
+  v_c = len(catcher)
+  v_1 = len(first)
+  v_2 = len(second)
+  v_3 = len(third)
+  v_ss = len(short)
+  v_of = len(of)
+  v_dh = len(dh_only)
+
+  print(v_c)
+  print(v_1)
+  print(v_2)
+  print(v_3)
+  print(v_ss)
+  print(v_of / 3)
+  print(v_dh)
+
+  default_order = ['C', '2B', 'OF', '3B', '1B', 'SS']
+  # hitters['default'] = 'C' if hitters['C'] else '2B' if hitters['2B'] else 'OF' if hitters['OF'] else '3B' if hitters['3B'] else '1B' if hitters['1B'] else 'SS' if hitters['SS'] else 'UT'
+  # hitters['default'] = hitters.where
+
+  # df.loc[df['c1'] == 'Value', 'c2'] = 10
+
+  ranks.loc[ranks['SS'] == True, 'DefaultPos'] = 'SS'
+  ranks.loc[ranks['1B'] == True, 'DefaultPos'] = '1B'
+  ranks.loc[ranks['3B'] == True, 'DefaultPos'] = '3B'
+  ranks.loc[ranks['OF'] == True, 'DefaultPos'] = 'OF'
+  ranks.loc[ranks['2B'] == True, 'DefaultPos'] = '2B'
+  ranks.loc[ranks['C'] == True, 'DefaultPos'] = 'C'
+  ranks.loc[ranks['RP'] == True, 'DefaultPos'] = 'RP'
+  ranks.loc[ranks['SP'] == True, 'DefaultPos'] = 'SP'
+  ranks.loc[ranks['DefaultPos'].isna(), 'DefaultPos'] = 'Util'
+
+  hitters = ranks[(ranks['Util'] == True) & (ranks['VORP'] >= -10)]
+  default_counts = hitters['DefaultPos'].value_counts()
+  print(default_counts)
+
+  HITTER_VP = .12
+  SP_VP = .08
+  RP_VP = .02
+
+  print(ranks.head(50))
+  return
 
 contracts = add_ids(contracts)
 contracts = format_contracts(contracts)
 merged = add_projections(contracts)
 ranks = add_positions(merged)
+w_vorp = find_hitter_vorp(ranks)
 
 
 # yb = (contracts[contracts['Team'] == 'Young Bucks'])
