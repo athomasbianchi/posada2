@@ -60,43 +60,24 @@ def add_ids(contracts):
   fallback = fallback.set_index('Name')
   contracts.loc[contracts['FangraphsId'].isna(), 'FangraphsId'] = fallback['FangraphsId']
 
-  print(contracts.columns)
-
-  # unnamed = contracts[contracts['FangraphsId'].isna()]
-  # print(unnamed)
-  # print(contracts)
   return contracts
 
-# TODO later, not important now
+# TODO handle contract price
 def format_contracts(contracts):
   contracts = contracts.reset_index()
-  print(contracts)
+  contracts.sort_values(by='Team', ascending=False, inplace=True)
+  
+  contracts.loc[contracts['Yrs'] == "U", 'contractType'] = 'AA'
+  contracts.loc[contracts['Note'] == '@', 'contractType'] = 'pre-arb'
+  contracts.loc[contracts['Note'] == '¹', 'contractType'] = 'arb1'
+  contracts.loc[contracts['Note'] == '²', 'contractType'] = 'arb2'
+  contracts.loc[contracts['Note'] == '³', 'contractType'] = 'arb3'
+  contracts.loc[contracts['Cost'] == 'AAA opt', 'contractType'] = 'AAA opt'
+  contracts.loc[contracts['Level'] == 'Cut', 'contractType'] = 'cut'
+  contracts.loc[contracts['contractType'].isna(), 'contractType'] = 'contract'
 
-  # check for dups
-  # ids = contracts['FangraphsId']
-  # dups = contracts[ids.isin(ids[ids.duplicated()])].sort_values("FangraphsId")
-  # print(dups)
+  print(contracts[contracts['contractType'].str.startswith('arb')].sort_values(by='contractType', ascending=False))
 
-
-  # print(contracts.columns)
-  # print(contracts.head(10))
-  # contracts['Type'] = pd.Series()
-  # contracts.loc[contracts['Yrs'] == 'U', 'Type'] = 'AA'
-  # contracts.loc[contracts['Yrs'] == 'U', 'Cost'] = 0
-  # contracts.loc[contracts['Type'] == 'AA', 'Yrs'] = ""
-  # minors = contracts[contracts['Type'] == 'AA']
-  # minors.sort_values(by="Team", inplace=True)
-  # print(minors.shape)
-  # print(minors.head(20))
-
-  # print(contracts[contracts['Yrs'].isna()])
-
-  # series = contracts['Yrs']
-  # series.drop_duplicates(inplace=True)
-  # print(series)
-
-  # longs = contracts[contracts['Yrs'] > 3]
-  # print(longs.head(20))
   return contracts
 
 def add_projections(contracts):
@@ -108,7 +89,7 @@ def add_projections(contracts):
   proj.sort_values(by="VORP", ascending=False, inplace=True, ignore_index=True)
 
   proj_merge = proj[['Name', 'NameASCII', 'Team', 'FangraphsId', 'PTS', 'PTS/G', 'VORP', 'isRP']]
-  contracts_merge = contracts[['FangraphsId', 'EspnId', 'Team', 'Level', 'Yrs', 'Cost', 'Note']]
+  contracts_merge = contracts[['FangraphsId', 'EspnId', 'Team', 'Level', 'Yrs', 'Cost', 'Note', 'contractType']]
 
   merged = pd.merge(proj_merge, contracts_merge, how='left', on='FangraphsId')
   merged.rename(columns={'Team_x': 'Pro', 'Team_y': 'TJ'}, inplace=True)
@@ -118,7 +99,9 @@ def add_projections(contracts):
 
 def add_positions(merged):
   pos = pd.read_csv('positions.csv')
+
   # merged_wo_eid = merged[merged['EspnId'].isna()]
+
   eid_merge = pos[['Name', 'EspnId']]
   eid_merge.rename(columns={'Name': 'NameASCII'}, inplace=True)
   eid_merge['EspnId'].astype('int64')
@@ -132,9 +115,6 @@ def add_positions(merged):
   merged = pd.merge(merged, eid_merge, on='NameASCII', how='left')
   merged['EspnId_x'].fillna(merged['EspnId_y'], inplace=True)
   merged.rename(columns={'EspnId_x': 'EspnId'}, inplace=True)
-
-  print(merged.columns)
-  print(pos.columns)
 
   pos_to_merge = pos[['Name', 'EspnId', 'Espn_proj', 'C', '1B', '2B', '3B', 'SS', 'OF', 'Util', 'SP', 'RP', 'P']]
 
@@ -155,27 +135,6 @@ def add_vorp(ranks):
   of = hitters[hitters['OF'] == True]
   dh_only = hitters[(hitters["C"] == False) & (hitters['1B'] == False) & (hitters['2B'] == False) & (hitters['3B'] == False) & (hitters['SS'] == False) & (hitters['OF'] == False)]
 
-  v_c = len(catcher)
-  v_1 = len(first)
-  v_2 = len(second)
-  v_3 = len(third)
-  v_ss = len(short)
-  v_of = len(of)
-  v_dh = len(dh_only)
-
-  print(v_c)
-  print(v_1)
-  print(v_2)
-  print(v_3)
-  print(v_ss)
-  print(v_of / 3)
-  print(v_dh)
-
-  default_order = ['C', '2B', 'OF', '3B', '1B', 'SS']
-  # hitters['default'] = 'C' if hitters['C'] else '2B' if hitters['2B'] else 'OF' if hitters['OF'] else '3B' if hitters['3B'] else '1B' if hitters['1B'] else 'SS' if hitters['SS'] else 'UT'
-  # hitters['default'] = hitters.where
-
-  # df.loc[df['c1'] == 'Value', 'c2'] = 10
 
   ranks.loc[ranks['SS'] == True, 'DefaultPos'] = 'SS'
   ranks.loc[ranks['1B'] == True, 'DefaultPos'] = '1B'
@@ -212,15 +171,14 @@ def add_vorp(ranks):
   ranks.loc[(ranks['RP'] == True) & (ranks['PosStr'] != ""), 'PosStr'] = ranks['PosStr'] + '/RP'
   ranks.loc[(ranks['RP'] == True) & (ranks['PosStr'] == ""), 'PosStr'] = ranks['PosStr'] + 'RP'
 
-  print(ranks[['NameASCII', 'PosStr']].head(50))
-
   hitters = ranks[(ranks['Util'] == True) & (ranks['VORP'] >= -10)]
   # default_counts = hitters['DefaultPos'].value_counts()
   # print(default_counts)
 
-  SP_VP = .10
-  HITTER_VP = .08
-  RP_VP = .05
+  # guesses, how do we calculate these
+  SP_VP = .105
+  HITTER_VP = .085
+  RP_VP = .055
 
   ranks.loc[ranks['isRP'] == True, 'Projected $'] = ranks['VORP'] * RP_VP
   ranks.loc[(ranks['isRP'] == False) & (ranks['Util'] == True), 'Projected $'] = ranks['VORP'] * HITTER_VP
@@ -228,8 +186,14 @@ def add_vorp(ranks):
 
   # TODO handle < $1
   ranks.sort_values(by='Projected $', ascending=False, inplace=True)
-  print(ranks.columns)
-  print(ranks[['NameASCII','Pro', 'DefaultPos', 'PosStr', 'TJ', 'Level', 'Yrs', 'Cost', 'Note', 'PTS', 'PTS/G', 'VORP', 'Projected $']].head(50))
+  ranks.loc[(ranks['Projected $'] <= 1) & (ranks['Projected $'] > -5), 'Projected $'] = 1
+  ranks.loc[(ranks['Projected $'] <= -5), 'Projected $'] = 0
+  ranks_preview = ranks[['NameASCII','Pro', 'DefaultPos', 'PosStr', 'TJ', 'Level', 'Yrs', 'Cost', 'Note', 'contractType', 'PTS', 'PTS/G', 'VORP', 'Projected $']]
+  # print(ranks_preview[ranks_preview['DefaultPos'] == 'SP'].head(108))
+  print(ranks_preview[ranks_preview['contractType'].str.startswith('arb') == True].head(50))
+
+
+
   return(ranks)
 
 contracts = add_ids(contracts)
