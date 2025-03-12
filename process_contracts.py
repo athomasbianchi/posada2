@@ -60,6 +60,8 @@ def add_ids(contracts):
   fallback = fallback.set_index('Name')
   contracts.loc[contracts['FangraphsId'].isna(), 'FangraphsId'] = fallback['FangraphsId']
 
+  print(contracts.columns)
+
   # unnamed = contracts[contracts['FangraphsId'].isna()]
   # print(unnamed)
   # print(contracts)
@@ -105,8 +107,8 @@ def add_projections(contracts):
   proj = pd.concat([h, sp, rp], ignore_index=True)
   proj.sort_values(by="VORP", ascending=False, inplace=True, ignore_index=True)
 
-  proj_merge = proj[['Name', 'NameASCII', 'Team', 'FangraphsId', 'PTS', 'PTS/G', 'VORP']]
-  contracts_merge = contracts[['FangraphsId', 'EspnId', 'Team']]
+  proj_merge = proj[['Name', 'NameASCII', 'Team', 'FangraphsId', 'PTS', 'PTS/G', 'VORP', 'isRP']]
+  contracts_merge = contracts[['FangraphsId', 'EspnId', 'Team', 'Level', 'Yrs', 'Cost', 'Note']]
 
   merged = pd.merge(proj_merge, contracts_merge, how='left', on='FangraphsId')
   merged.rename(columns={'Team_x': 'Pro', 'Team_y': 'TJ'}, inplace=True)
@@ -131,6 +133,9 @@ def add_positions(merged):
   merged['EspnId_x'].fillna(merged['EspnId_y'], inplace=True)
   merged.rename(columns={'EspnId_x': 'EspnId'}, inplace=True)
 
+  print(merged.columns)
+  print(pos.columns)
+
   pos_to_merge = pos[['Name', 'EspnId', 'Espn_proj', 'C', '1B', '2B', '3B', 'SS', 'OF', 'Util', 'SP', 'RP', 'P']]
 
   merged = merged.astype({'EspnId': 'str'})
@@ -140,7 +145,7 @@ def add_positions(merged):
   with_pos.sort_values(by='VORP', ascending=False, inplace=True)
   return(with_pos)
 
-def find_hitter_vorp(ranks):
+def add_vorp(ranks):
   hitters = ranks[(ranks['Util'] == True) & (ranks['VORP'] >= -10)]
   catcher = hitters[hitters['C'] == True]
   first = hitters[hitters['1B'] == True]
@@ -181,25 +186,58 @@ def find_hitter_vorp(ranks):
   ranks.loc[ranks['RP'] == True, 'DefaultPos'] = 'RP'
   ranks.loc[ranks['SP'] == True, 'DefaultPos'] = 'SP'
   ranks.loc[ranks['DefaultPos'].isna(), 'DefaultPos'] = 'Util'
+  
+  ranks['PosStr'] = ""
+  ranks.loc[ranks['C'] == True, 'PosStr'] = ranks["PosStr"] + 'C'
+  ranks.loc[(ranks['2B'] == True) & (ranks['PosStr'] != ""), 'PosStr'] = ranks["PosStr"] + '/2B'
+  ranks.loc[(ranks['2B'] == True) & (ranks['PosStr'] == ""), 'PosStr'] = ranks["PosStr"] + '2B'
+
+  ranks.loc[(ranks['OF'] == True) & (ranks['PosStr'] != ""), 'PosStr'] = ranks["PosStr"] + '/OF'
+  ranks.loc[(ranks['OF'] == True) & (ranks['PosStr'] == ""), 'PosStr'] = ranks["PosStr"] + 'OF'
+
+  ranks.loc[(ranks['3B'] == True) & (ranks['PosStr'] != ""), 'PosStr'] = ranks["PosStr"] + '/3B'
+  ranks.loc[(ranks['3B'] == True) & (ranks['PosStr'] == ""), 'PosStr'] = ranks["PosStr"] + '3B'
+
+  ranks.loc[(ranks['1B'] == True) & (ranks['PosStr'] != ""), 'PosStr'] = ranks["PosStr"] + '/1B'
+  ranks.loc[(ranks['1B'] == True) & (ranks['PosStr'] == ""), 'PosStr'] = ranks["PosStr"] + '1B'
+
+  ranks.loc[(ranks['SS'] == True) & (ranks['PosStr'] != ""), 'PosStr'] = ranks["PosStr"] + '/SS'
+  ranks.loc[(ranks['SS'] == True) & (ranks['PosStr'] == ""), 'PosStr'] = ranks["PosStr"] + 'SS'
+
+  ranks.loc[(ranks['Util'] == True) & (ranks['PosStr'] == ""), 'PosStr'] = ranks['PosStr'] + 'DH'
+
+  ranks.loc[(ranks['SP'] == True) & (ranks['PosStr'] != ""), 'PosStr'] = ranks["PosStr"] + '/SP'
+  ranks.loc[(ranks['SP'] == True) & (ranks['PosStr'] == ""), 'PosStr'] = ranks["PosStr"] + 'SP'
+
+  ranks.loc[(ranks['RP'] == True) & (ranks['PosStr'] != ""), 'PosStr'] = ranks['PosStr'] + '/RP'
+  ranks.loc[(ranks['RP'] == True) & (ranks['PosStr'] == ""), 'PosStr'] = ranks['PosStr'] + 'RP'
+
+  print(ranks[['NameASCII', 'PosStr']].head(50))
 
   hitters = ranks[(ranks['Util'] == True) & (ranks['VORP'] >= -10)]
-  default_counts = hitters['DefaultPos'].value_counts()
-  print(default_counts)
+  # default_counts = hitters['DefaultPos'].value_counts()
+  # print(default_counts)
 
-  HITTER_VP = .12
-  SP_VP = .08
-  RP_VP = .02
+  SP_VP = .10
+  HITTER_VP = .08
+  RP_VP = .05
 
-  print(ranks.head(50))
-  return
+  ranks.loc[ranks['isRP'] == True, 'Projected $'] = ranks['VORP'] * RP_VP
+  ranks.loc[(ranks['isRP'] == False) & (ranks['Util'] == True), 'Projected $'] = ranks['VORP'] * HITTER_VP
+  ranks.loc[(ranks['isRP'] == False) & (ranks['Util'] == False), 'Projected $'] = ranks['VORP'] * SP_VP
+
+  # TODO handle < $1
+  ranks.sort_values(by='Projected $', ascending=False, inplace=True)
+  print(ranks.columns)
+  print(ranks[['NameASCII','Pro', 'DefaultPos', 'PosStr', 'TJ', 'Level', 'Yrs', 'Cost', 'Note', 'PTS', 'PTS/G', 'VORP', 'Projected $']].head(50))
+  return(ranks)
 
 contracts = add_ids(contracts)
 contracts = format_contracts(contracts)
 merged = add_projections(contracts)
 ranks = add_positions(merged)
-w_vorp = find_hitter_vorp(ranks)
+w_vorp = add_vorp(ranks)
 
-
-# yb = (contracts[contracts['Team'] == 'Young Bucks'])
+# yb = (w_vorp[w_vorp['TJ'] == 'Young Bucks'])
 # print(yb.shape)
 # print(yb.head(50))

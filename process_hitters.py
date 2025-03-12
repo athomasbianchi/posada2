@@ -12,5 +12,6 @@ simp.rename(columns={'PlayerId': 'FangraphsId'}, inplace=True)
 replacement_h = simp.iloc[96-5:96+5]
 replacement_level = replacement_h['PTS'].mean()
 simp['VORP'] = simp['PTS'] - replacement_level
+simp['isRP'] = False
 
 simp.to_csv('hitters_simp.csv', index=False)

@@ -25,24 +25,24 @@ rp = (df[df['isRP']])
 sp = (df[~df['isRP']])
 
 # SP
-sp = sp[['Name', 'Team', 'RPS', 'GS', 'PTS', 'PTS/G', 'SV', 'HLD', 'NameASCII', 'PlayerId', 'MLBAMID']].sort_values(by='PTS', ascending=False).reset_index(drop=True)
+sp = sp[['Name', 'Team', 'RPS', 'GS', 'PTS', 'PTS/G', 'SV', 'HLD', 'NameASCII', 'PlayerId', 'MLBAMID', 'isRP']].sort_values(by='PTS', ascending=False).reset_index(drop=True)
 
 replacement_sp = sp.iloc[96-5:96+5]
 replacement_level_sp = replacement_sp['PTS'].mean()
 sp['VORP'] = sp['PTS'] - replacement_level_sp
-sp_simp = sp[['Name', 'Team', 'PTS', 'PTS/G', 'NameASCII', 'PlayerId', 'MLBAMID', 'VORP']]
+sp_simp = sp[['Name', 'Team', 'PTS', 'PTS/G', 'NameASCII', 'PlayerId', 'MLBAMID', 'VORP', 'isRP']]
 sp_simp.rename(columns={'PlayerId': 'FangraphsId'}, inplace=True)
 
 sp_simp.to_csv('sp_simp.csv', index=False)
 
 # RP
-rp = rp[['Name', 'Team', 'RPS', 'GS', 'PTS', 'PTS/G', 'SV', 'HLD', 'NameASCII', 'PlayerId', 'MLBAMID']].sort_values(by='PTS', ascending=False).reset_index(drop=True)
+rp = rp[['Name', 'Team', 'RPS', 'GS', 'PTS', 'PTS/G', 'SV', 'HLD', 'NameASCII', 'PlayerId', 'MLBAMID', 'isRP']].sort_values(by='PTS', ascending=False).reset_index(drop=True)
 
 replacement_rp = rp.iloc[21:26]
 replacement_level_rp = replacement_rp['PTS'].mean()
 rp['VORP'] = rp['PTS'] - replacement_level_rp
 
-rp_simp = rp[['Name', 'Team', 'PTS', 'PTS/G', 'NameASCII', 'PlayerId', 'MLBAMID', 'VORP']]
+rp_simp = rp[['Name', 'Team', 'PTS', 'PTS/G', 'NameASCII', 'PlayerId', 'MLBAMID', 'VORP', 'isRP']]
 rp_simp.rename(columns={'PlayerId': 'FangraphsId'}, inplace=True)
 
 rp_simp.to_csv('rp_simp.csv', index=False)
