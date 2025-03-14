@@ -9,6 +9,8 @@ print(response)
 data = response.json()
 print(data)
 
+# TODO get fangraphs projections for pitchers and hitters formatted correctly?
+
 def write_csv(data, file_path):
       with open(file_path, 'w', newline='') as file:
         writer = csv.writer(file)

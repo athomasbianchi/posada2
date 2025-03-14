@@ -60,11 +60,18 @@ def add_ids(contracts):
   fallback = fallback.set_index('Name')
   contracts.loc[contracts['FangraphsId'].isna(), 'FangraphsId'] = fallback['FangraphsId']
 
+  # add age
+  age = pd.read_csv("24_age.csv", dtype=str)
+  age['Age'] = age['Age'].astype(int)
+  age['Age'] = age['Age'] + 1
+  age.rename(columns={'PlayerId': 'FangraphsId'}, inplace=True)
+  age_merge = age[['FangraphsId', 'Age']]
+  contracts = contracts.reset_index()
+  contracts = pd.merge(contracts, age_merge, how='left', on='FangraphsId')
   return contracts
 
-# TODO handle contract price
+# TODO handle contract price formatting
 def format_contracts(contracts):
-  contracts = contracts.reset_index()
   contracts.sort_values(by='Team', ascending=False, inplace=True)
   
   contracts.loc[contracts['Yrs'] == "U", 'contractType'] = 'AA'
@@ -75,8 +82,6 @@ def format_contracts(contracts):
   contracts.loc[contracts['Cost'] == 'AAA opt', 'contractType'] = 'AAA opt'
   contracts.loc[contracts['Level'] == 'Cut', 'contractType'] = 'cut'
   contracts.loc[contracts['contractType'].isna(), 'contractType'] = 'contract'
-
-  print(contracts[contracts['contractType'].str.startswith('arb')].sort_values(by='contractType', ascending=False))
 
   return contracts
 
@@ -89,7 +94,7 @@ def add_projections(contracts):
   proj.sort_values(by="VORP", ascending=False, inplace=True, ignore_index=True)
 
   proj_merge = proj[['Name', 'NameASCII', 'Team', 'FangraphsId', 'PTS', 'PTS/G', 'VORP', 'isRP']]
-  contracts_merge = contracts[['FangraphsId', 'EspnId', 'Team', 'Level', 'Yrs', 'Cost', 'Note', 'contractType']]
+  contracts_merge = contracts[['FangraphsId', 'EspnId', 'Team', 'Level', 'Yrs', 'Cost', 'Note', 'contractType', 'Age']]
 
   merged = pd.merge(proj_merge, contracts_merge, how='left', on='FangraphsId')
   merged.rename(columns={'Team_x': 'Pro', 'Team_y': 'TJ'}, inplace=True)
@@ -175,7 +180,8 @@ def add_vorp(ranks):
   # default_counts = hitters['DefaultPos'].value_counts()
   # print(default_counts)
 
-  # guesses, how do we calculate these
+  # guesses, how do we calculate these in the future
+  # TODO C_VP
   SP_VP = .105
   HITTER_VP = .085
   RP_VP = .055
@@ -184,23 +190,51 @@ def add_vorp(ranks):
   ranks.loc[(ranks['isRP'] == False) & (ranks['Util'] == True), 'Projected $'] = ranks['VORP'] * HITTER_VP
   ranks.loc[(ranks['isRP'] == False) & (ranks['Util'] == False), 'Projected $'] = ranks['VORP'] * SP_VP
 
-  # TODO handle < $1
   ranks.sort_values(by='Projected $', ascending=False, inplace=True)
   ranks.loc[(ranks['Projected $'] <= 1) & (ranks['Projected $'] > -5), 'Projected $'] = 1
   ranks.loc[(ranks['Projected $'] <= -5), 'Projected $'] = 0
+
+
+  ranks.loc[ranks['Espn_proj'].isna(), 'Espn_proj'] = 0
+  ranks.loc[ranks['Espn_proj'] == False, 'Espn_proj'] = 0
+  ranks.loc[ranks['Espn_proj'] == 'False', 'Espn_proj'] = 0
+  ranks['Espn_proj'] = ranks['Espn_proj'].astype(float)
+  ranks['Espn_dif'] = ranks['PTS'] - ranks['Espn_proj']
+  ranks['Espn_dif'] = ranks['Espn_dif'].round(2)
+
   ranks_preview = ranks[['NameASCII','Pro', 'DefaultPos', 'PosStr', 'TJ', 'Level', 'Yrs', 'Cost', 'Note', 'contractType', 'PTS', 'PTS/G', 'VORP', 'Projected $']]
   # print(ranks_preview[ranks_preview['DefaultPos'] == 'SP'].head(108))
-  print(ranks_preview[ranks_preview['contractType'].str.startswith('arb') == True].head(50))
-
-
-
+  # print(ranks_preview[ranks_preview['contractType'].str.startswith('arb') == True].head(50))
   return(ranks)
 
+def export_to_csv(ranks):
+  export_array = ['NameASCII', 'Pro', 'PosStr', 'Age', 'TJ', 'Yrs', 'Cost', 'Espn_dif', 'Espn_proj','PTS', 'PTS/G', 'VORP', 'Projected $']
+  arb_export = ranks[ranks['contractType'].str.startswith('arb') == True]
+  arb_export = arb_export[['NameASCII', 'Pro', 'PosStr', 'Age', 'TJ', 'contractType', 'Cost', 'Espn_proj', 'PTS', 'PTS/G', 'VORP', 'Projected $']]
+  arb_export.sort_values(by=['contractType', 'VORP'], ascending=[False, False], inplace=True)
+  arb_export.to_csv('exp_arb.csv', index=False)
+
+  pos_array = ['C', '1B', '2B', '3B', 'SS', 'OF', 'SP', 'RP']
+  for pos in pos_array:
+    pos_export = ranks[ranks[pos] == True]
+    pos_export = pos_export[export_array]
+    pos_export.to_csv(f'exp_{pos}.csv', index=False)
+  return
+
 contracts = add_ids(contracts)
+print(contracts.columns)
 contracts = format_contracts(contracts)
+print(contracts.columns)
 merged = add_projections(contracts)
+print(merged.columns)
 ranks = add_positions(merged)
+print(ranks.columns)
 w_vorp = add_vorp(ranks)
+print(w_vorp.columns)
+export_to_csv(w_vorp)
+
+# print(w_vorp)
+
 
 # yb = (w_vorp[w_vorp['TJ'] == 'Young Bucks'])
 # print(yb.shape)
