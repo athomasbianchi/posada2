@@ -16,5 +16,5 @@ print(data)
 
 teams = data['teams']
 
-with open(f'rosters_{seasonId}_{scoringPeriodId}_{gameId}.json', 'w') as file:
+with open(f'rosters_{seasonId}_{gameId}_{scoringPeriodId}.json', 'w') as file:
     json.dump(teams, file, indent=4)

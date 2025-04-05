@@ -46,7 +46,7 @@ pos_dict = {
   19: 'IF'
 }
 
-with open('rosters_2025_2_2.json') as file:
+with open('rosters_2025_2_10.json') as file:
     data = json.load(file)
     exp = {}
     # print(data[8])
@@ -62,34 +62,36 @@ with open('rosters_2025_2_2.json') as file:
     # print(exp)
 
     for team in data:
-        team_name = tj_team_dict[team['id']]
-        exp[team_name] = {
-           'active_count': 0,
-            'il_count': 0
-        }
-        for entry in team['roster']['entries']:
-            slot = entry['lineupSlotId']
-            id = entry['playerId']
-            player = entry['playerPoolEntry']['player']
-            fullName = player['fullName']
-            injruyStatus = player['injuryStatus']
-            # injured IL eligible
-            injured = player['injured']
-            
-            if slot == 17:
-              exp[team_name]['il_count'] = exp[team_name].get('il_count', 0) + 1
-              print(team_name)
-              print(fullName, slot, injruyStatus, injured)
-            else:
-               exp[team_name]['active_count'] = exp[team_name].get('active_count', 0) + 1
-            if exp[team_name].get(slot):
-                exp[team_name][slot].append({'name': fullName, 'il_eligible': injured})
-            else:
-              exp[team_name][slot] = [{'name': fullName, 'il_eligible': injured}]
+        if team['id'] not in [12,14,15,16,17,18]:
+          team_name = tj_team_dict[team['id']]
+          exp[team_name] = {
+            'active_count': 0,
+              'il_count': 0
+          }
+          for entry in team['roster']['entries']:
+              slot = entry['lineupSlotId']
+              id = entry['playerId']
+              player = entry['playerPoolEntry']['player']
+              fullName = player['fullName']
+              injruyStatus = player['injuryStatus']
+              # injured IL eligible
+              injured = player['injured']
+              
+              if slot == 17:
+                exp[team_name]['il_count'] = exp[team_name].get('il_count', 0) + 1
+                print(team_name)
+                print(fullName, slot, injruyStatus, injured)
+              else:
+                exp[team_name]['active_count'] = exp[team_name].get('active_count', 0) + 1
+              if exp[team_name].get(slot):
+                  exp[team_name][slot].append({'name': fullName, 'il_eligible': injured})
+              else:
+                exp[team_name][slot] = [{'name': fullName, 'il_eligible': injured}]
     print(exp['YOUNG BUCKS'])
 
     for team in exp:
         # print(exp[team])
+
         print(team)
         active_count = exp[team]['active_count']
         il_count = exp[team]['il_count']

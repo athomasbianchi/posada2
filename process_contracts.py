@@ -1,6 +1,12 @@
 import pandas as pd
 
-contracts = pd.read_csv('contracts.csv')
+# TODO refactor and use new contracts
+# TODO Create ID File
+# 
+
+CONTRACTS_FILE = 'post_contracts.csv'
+
+contracts = pd.read_csv(CONTRACTS_FILE)
 contracts.sort_values(by="Yrs", inplace=True, ascending=False)
 contracts.rename(columns={'Player': 'Name'}, inplace=True)
 
@@ -9,11 +15,21 @@ def add_ids(contracts):
 
   # https://www.smartfantasybaseball.com/2020/12/everything-you-need-to-know-about-the-player-id-map/#WhatIs
   id_map = pd.read_csv("id_map.csv", dtype=str)
-  id_map = id_map[['ESPNNAME', 'IDFANGRAPHS', 'ESPNID']]
-  id_map.columns = ['Name', 'FangraphsId', 'EspnId']
+  id_map = id_map[['IDPLAYER','ESPNNAME', 'IDFANGRAPHS', 'ESPNID']]
+  id_map.columns = ['TjmId', 'Name', 'FangraphsId', 'EspnId']
+  id_map.drop_duplicates(subset=['TjmId'], keep='first', inplace=True, ignore_index=True)
+  
+
+  contracts['Name'] = contracts['Name'].str.strip('@©2 ')
 
   contracts = pd.merge(contracts, id_map, how="left", on='Name')
-  contracts['Name'] = contracts['Name'].str.strip('@©2 ')
+
+  empty = contracts[(contracts['FangraphsId'].isna()) & (contracts['Team'] != 'FA') & (contracts['Level'] == 'MLB')]
+  print(empty)
+  
+  # print(contracts)
+
+  return
   contracts.drop_duplicates(subset=['Name'], keep='first', inplace=True, ignore_index=True)
   contracts = contracts.set_index('Name')
 
@@ -222,16 +238,16 @@ def export_to_csv(ranks):
   return
 
 contracts = add_ids(contracts)
-print(contracts.columns)
-contracts = format_contracts(contracts)
-print(contracts.columns)
-merged = add_projections(contracts)
-print(merged.columns)
-ranks = add_positions(merged)
-print(ranks.columns)
-w_vorp = add_vorp(ranks)
-print(w_vorp.columns)
-export_to_csv(w_vorp)
+# print(contracts.columns)
+# contracts = format_contracts(contracts)
+# print(contracts.columns)
+# merged = add_projections(contracts)
+# print(merged.columns)
+# ranks = add_positions(merged)
+# print(ranks.columns)
+# w_vorp = add_vorp(ranks)
+# print(w_vorp.columns)
+# export_to_csv(w_vorp)
 
 # print(w_vorp)
 
